@@ -3,7 +3,7 @@
 # Windows タスクスケジューラから 1 時間おきに呼び出す想定。
 
 $ErrorActionPreference = 'Continue'
-$repo = 'D:\work\30_ani_KPOP_JPOP\anime_list_updater'
+$repo = 'E:\wk\02.AnimeRanking\anime_list_updater'
 $logDir = Join-Path $repo 'logs'
 if (-not (Test-Path $logDir)) { New-Item -ItemType Directory -Path $logDir | Out-Null }
 $log = Join-Path $logDir ('auto_pull_{0}.log' -f (Get-Date -Format 'yyyyMM'))
