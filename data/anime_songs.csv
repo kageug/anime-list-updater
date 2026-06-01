@@ -1,218 +1,68 @@
 ﻿season_id,season_label,anime_title,is_rerun,kind,index,song_title,artist,youtube_url,youtube_views,youtube_channel,last_searched_at
-5228,2026春アニメ,愛してるゲームを終わらせたい,False,OP,1,君のせいで愛してる,CHiCO with HoneyWorks,,,,
-5228,2026春アニメ,愛してるゲームを終わらせたい,False,ED,1,リトルワールド,PompadollS,,,,
-5228,2026春アニメ,アオアシ,True,OP,1,無心拍数,［Alexandros］,,,,
-5228,2026春アニメ,アオアシ,True,OP,2,Presence,Superfly,,,,
-5228,2026春アニメ,アオアシ,True,ED,1,Blue Diary,Rin音,,,,
-5228,2026春アニメ,アオアシ,True,ED,2,カラー・リリィの恋文,神はサイコロを振らない,,,,
-5228,2026春アニメ,あかね噺,False,OP,1,人誑し / ひとたらし,桑田佳祐,,,,
-5228,2026春アニメ,あかね噺,False,ED,1,AKANE On My Mind〜饅頭こわい,桑田佳祐,,,,
-5228,2026春アニメ,アズールレーン びそくぜんしんっ！,True,主題歌,1,Longing for!,新田恵海,,,,
-5228,2026春アニメ,アズールレーン びそくぜんしんっ！,True,主題歌,2,まひるいろシエスタ,榊原ゆい,,,,
-5228,2026春アニメ,淡島百景,False,OP,1,blue hour,HanaHope,,,,
-5228,2026春アニメ,淡島百景,False,ED,1,光,中島美嘉,,,,
-5228,2026春アニメ,TVSP 異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～,False,OP,1,逆転劇,月詠み,,,,
-5228,2026春アニメ,TVSP 異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～,False,ED,1,ハチミツ,スガシカオ,,,,
-5228,2026春アニメ,異世界のんびり農家２,False,OP,1,It’s a beautiful story,ルールーシー＝ルー（CV.下地紫野）＆ティア（CV.洲崎綾),,,,
-5228,2026春アニメ,異世界のんびり農家２,False,ED,1,Sunny Steps,緋月ゆい,,,,
-5228,2026春アニメ,一畳間まんきつ暮らし！,False,OP,1,チャオチャオ（Ciao Ciao）,Sophià la Mode,,,,
-5228,2026春アニメ,一畳間まんきつ暮らし！,False,ED,1,やわやわNERD 超FreQuency,夢限大みゅーたいぷ,,,,
-5228,2026春アニメ,嫌な顔されながらおパンツ見せてもらいたいＲ,False,ED,1,Je t'aime♡Je t'aime,ミライスカート*,,,,
-5228,2026春アニメ,インゴクダンチ,False,主題歌,1,団地妻の誘惑Part2,miko,,,,
-5228,2026春アニメ,大きい女の子は好きですか？,False,主題歌,1,世界にひとつのギフト,中恵光城,,,,
-5228,2026春アニメ,おジャ魔女どれみにょん,False,OP,1,おジャ魔女カーニバル！！,,https://www.youtube.com/watch?v=kh1PwoEsIf8,6842,おジャ魔女どれみ公式チャンネル,2026-05-03T22:03:45
-5228,2026春アニメ,オタクに優しいギャルはいない!?,False,OP,1,HIDE AND SEEK,i-dle,https://www.youtube.com/watch?v=JCDGaA2sfi0,1260189,オタクに優しいギャルはいない!?,2026-05-03T22:03:58
-5228,2026春アニメ,オタクに優しいギャルはいない!?,False,ED,1,一生仲仔,三四少女,https://www.youtube.com/watch?v=JCDGaA2sfi0,1260189,オタクに優しいギャルはいない!?,2026-05-03T22:04:11
-5228,2026春アニメ,おでかけ子ザメ シーズン2,False,ED,1,よりみち,子ザメちゃん(CV：花澤香菜),https://www.youtube.com/watch?v=Laf46YXDt68,874040,アニメ『おでかけ子ザメ』チャンネル,2026-05-03T22:04:24
-5228,2026春アニメ,お隣の天使様にいつの間にか駄目人間にされていた件 第2期,False,OP,1,君は恋人,オーイシマサヨシ,https://www.youtube.com/watch?v=8Gtb1uhjPKs,1174964,TOHO animation,2026-05-03T22:04:38
-5228,2026春アニメ,おねがいアイプリ,False,OP,1,おねがいアイプリ！,おねがいかなえ隊,https://www.youtube.com/watch?v=j1J45v_al9s,140,真一チャンネル,2026-05-03T22:04:51
-5228,2026春アニメ,おねがいアイプリ,False,ED,1,放課後のおねがい！,いぎなり東北産,https://www.youtube.com/watch?v=bH8Ukl9BM0s,41469,【公式】アイプリちゅ〜ぶ,2026-05-03T22:05:05
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,OP,1,Vanguard,JAM Project,https://www.youtube.com/watch?v=1d_YJXQZUgQ,487771,ヴァンガードチャンネル【アニメ「Divinez 幻真星戦編」配信中!!】,2026-05-03T22:05:13
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,OP,2,Believe in my existence,JAM Project,https://www.youtube.com/watch?v=1d_YJXQZUgQ,487771,ヴァンガードチャンネル【アニメ「Divinez 幻真星戦編」配信中!!】,2026-05-03T22:05:20
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,ED,1,ダイヤモンドスター☆,麻生夏子,,,,
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,ED,2,Smash Up!!,椎名へきる,,,,
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,ED,3,DREAM SHOOTER,Sea☆A,,,,
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,ED,4,Starting Again,佐咲紗花,,,,
-5228,2026春アニメ,カードファイト!! ヴァンガード 15周年リマスター,False,ED,5,泣き虫TREASURES,ミルキィホームズ,,,,
-5228,2026春アニメ,骸骨騎士様、只今異世界へお出掛け中,True,OP,1,嗚呼、我が浪漫の道よ,PelleK,,,,
-5228,2026春アニメ,骸骨騎士様、只今異世界へお出掛け中,True,ED,1,僕らが愚かだなんて誰が言った,DIALOGUE+,,,,
-5228,2026春アニメ,カナン様はあくまでチョロい,False,OP,1,初恋モーメント,Faulieu.,https://www.youtube.com/watch?v=SGtyPSZqb5s,335542,Faulieu.,2026-05-03T22:05:49
-5228,2026春アニメ,カナン様はあくまでチョロい,False,ED,1,ポップ・スナック・ジャンクなHUNNY,あおぎり高校,https://www.youtube.com/watch?v=mHQi_a9MjkA,231842,あおぎり高校 - Aogiri Vtuber High School,2026-05-03T22:06:02
-5228,2026春アニメ,彼女、お借りします 第5期,False,OP,1,ノンシナリオ・エチュード,雨宮天,https://www.youtube.com/watch?v=R7u3ISKPujU,96474,雨宮天公式YouTubeチャンネル,2026-05-03T22:06:15
-5228,2026春アニメ,彼女、お借りします 第5期,False,ED,1,204号室,なきごと,,,,
-5228,2026春アニメ,株式会社マジルミエ,True,OP,1,オーダーメイド,まふまふ,,,,
-5228,2026春アニメ,株式会社マジルミエ,True,ED,1,ワークアウト,syudou,,,,
-5228,2026春アニメ,上伊那ぼたん、酔へる姿は百合の花,False,OP,1,芽吹くとき,yonige,https://www.youtube.com/watch?v=XX90FklAWsc,151203,アニプレックス チャンネル,2026-05-03T22:06:40
-5228,2026春アニメ,上伊那ぼたん、酔へる姿は百合の花,False,ED,1,感情グラス,,https://www.youtube.com/watch?v=JEiHCjhKRYw,66168,アニプレックス チャンネル,2026-05-03T22:06:53
-5228,2026春アニメ,神の雫,False,OP,1,hate you? love you?,HOKUTO,https://www.youtube.com/watch?v=yxccM_weehk,135172,HOKUTO,2026-05-03T22:07:06
-5228,2026春アニメ,神の雫,False,ED,1,カミノシズク,内田真礼,https://www.youtube.com/watch?v=Oz5EkYVJbBc,72088,アニメ『神の雫』official YouTube channel,2026-05-03T22:07:19
-5228,2026春アニメ,神の庭付き楠木邸,False,OP,1,驚きの子,入野自由,https://www.youtube.com/watch?v=JMqsT9cPh1c,189836,KADOKAWAanime,2026-05-03T22:07:31
-5228,2026春アニメ,神の庭付き楠木邸,False,ED,1,うたまひ,JYOCHO,https://www.youtube.com/watch?v=aDHno6PB5pM,20887,JYOCHO,2026-05-03T22:07:43
-5228,2026春アニメ,ガンバレ！中村くん！！,False,OP,1,瞬発的に恋しよう,岡村靖幸・中島健人,https://www.youtube.com/watch?v=JNbh6RTyOaE,429432,アニプレックス チャンネル,2026-05-03T22:07:55
-5228,2026春アニメ,「鬼滅の刃」シリーズ全編再放送,True,OP,1,紅蓮華,LiSA,,,,
-5228,2026春アニメ,「鬼滅の刃」シリーズ全編再放送,True,ED,1,from the edge,LiSA（梶浦由記 作詞・作曲・編曲）,,,,
-5228,2026春アニメ,キャンディーカリエス,False,主題歌,1,Telepathy,IS:SUE,https://www.youtube.com/watch?v=wM3E9LXHmu0,2689740,TVアニメ「キャンディーカリエス」,2026-05-03T22:08:09
-5228,2026春アニメ,霧尾ファンクラブ,False,OP,1,FANCLUB,スカートとODD Foot Works,https://www.youtube.com/watch?v=u5syUWK5d-8,58027,ぽにきゃん-Anime PONY CANYON,2026-05-03T22:08:22
-5228,2026春アニメ,霧尾ファンクラブ,False,ED,1,ハーモニー,a子,https://www.youtube.com/watch?v=n3c6bAOhVUg,464180,ぽにきゃん-Anime PONY CANYON,2026-05-03T22:08:34
-5228,2026春アニメ,キルアオ,False,OP,1,ATTITUDE,aespa,https://www.youtube.com/watch?v=nMwSsHkjmfk,2326192,aespa,2026-05-03T22:08:48
-5228,2026春アニメ,キルアオ,False,ED,1,KILL SHOT,RIIZE,https://www.youtube.com/watch?v=sfVO4X_xOu8,259210,RIIZE,2026-05-03T22:09:00
-5228,2026春アニメ,クジマ歌えば家ほろろ,False,OP,1,木漏れ日坂,Galileo Galilei,https://www.youtube.com/watch?v=7ETgAcnUcro,51435,Galileo Galilei Official,2026-05-03T22:09:13
-5228,2026春アニメ,クジマ歌えば家ほろろ,False,ED,1,ほろろ逍遥,角銅真実,,,,
-5228,2026春アニメ,クラスで2番目に可愛い女の子と友だちになった,False,OP,1,サブマリンユース,reGretGirl,https://www.youtube.com/watch?v=2hyWBr4hceY,207642,reGretGirl,2026-05-03T22:09:37
-5228,2026春アニメ,クラスで2番目に可愛い女の子と友だちになった,False,ED,1,ずっと１番にしてね,コレサワ,,,,
-5228,2026春アニメ,黒猫と魔女の教室,False,OP,1,Cusp,ASCA,https://www.youtube.com/watch?v=ATTWunJa4yc,36805,GOOD SMILE CHANNEL,2026-05-03T22:10:02
-5228,2026春アニメ,黒猫と魔女の教室,False,ED,1,ちゅーんあっぷ☆,スピラ・スピカ,https://www.youtube.com/watch?v=L7t4Jsq51LE,24437,spira spica Official YouTube Channel (SMEJ) ,2026-05-03T22:10:10
-5228,2026春アニメ,黒猫と魔女の教室,False,ED,2,Twilight Magic,中川翔子,,,,
-5228,2026春アニメ,ゴーストコンサート : missing Songs,False,OP,1,業魂REQUIEMER,相葉芹亜（CV.藤寺美徳）,https://www.youtube.com/watch?v=uN6qJzuCFtw,32753,KADOKAWAanime,2026-05-03T22:10:23
-5228,2026春アニメ,ゴーストコンサート : missing Songs,False,ED,1,茨の道,オデッセウス（CV.寿美菜子）,https://www.youtube.com/watch?v=KygwMir5i_U,10658,KADOKAWAanime,2026-05-03T22:10:33
-5228,2026春アニメ,氷の城壁,False,OP,1,透明,Novelbright,https://www.youtube.com/watch?v=SAtVrwS86pE,2440838,Novelbright,2026-05-03T22:10:46
-5228,2026春アニメ,氷の城壁,False,ED,1,逆様,ポルカドットスティングレイ,https://www.youtube.com/watch?v=5ggfKnnQ-0Q,167421,TBSアニメ,2026-05-03T22:10:59
-5228,2026春アニメ,最強の王様、二度目の人生は何をする？ Season2,False,OP,1,さよならじゃない方がいい,SIX LOUNGE,,,,
-5228,2026春アニメ,最強の王様、二度目の人生は何をする？ Season2,False,ED,1,二つの道,22/7,https://www.youtube.com/watch?v=gaPA7q3nd58,40260,22/7 OFFICIAL YouTube CHANNEL,2026-05-03T22:11:22
-5228,2026春アニメ,最強の職業は勇者でも賢者でもなく鑑定士(仮)らしいですよ？,False,OP,1,コンパスは透明,緑仙,https://www.youtube.com/watch?v=rm86UwJz8Ck,21883,NBCUniversal Anime/Music,2026-05-03T22:11:35
-5228,2026春アニメ,最強の職業は勇者でも賢者でもなく鑑定士(仮)らしいですよ？,False,ED,1,もーいーかい？,ファントムシータ,https://www.youtube.com/watch?v=WHkoz2tsc2s,3256,Yamashita Gakuen Anime Song Club,2026-05-03T22:11:46
-5228,2026春アニメ,自称悪役令嬢な婚約者の観察記録。,False,OP,1,ラフレア,宮川愛李,https://www.youtube.com/watch?v=zxS6lFQHiUc,112725,アルファポリス公式,2026-05-03T22:11:59
-5228,2026春アニメ,自称悪役令嬢な婚約者の観察記録。,False,ED,1,Magic,RLOEVO,https://www.youtube.com/watch?v=l0FE1UDC58U,271591,RLOEVO,2026-05-03T22:12:10
-5228,2026春アニメ,自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season,False,OP,1,ジハンキズム,ビバラッシュ,https://www.youtube.com/watch?v=48pc58upFY4,21943,アニメ「自動販売機に生まれ変わった俺は迷宮を彷徨う」公式,2026-05-03T22:12:21
-5228,2026春アニメ,自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season,False,ED,1,めくるめくランデヴー,FUWAMOCO,https://www.youtube.com/watch?v=vSwxof0K8lk,274345,FUWAMOCO Ch. hololive-EN,2026-05-03T22:12:33
-5228,2026春アニメ,終末のワルキューレⅢ,False,OP,1,Dead Or Alive,GLAY,https://www.youtube.com/watch?v=CqeuOBy-09U,2564203,GLAY,2026-05-03T22:12:47
-5228,2026春アニメ,終末のワルキューレⅢ,False,ED,1,"Last breath, Last record",早見沙織,https://www.youtube.com/watch?v=i8xvsTsbFfM,13560,早見沙織 Official YouTube Channel,2026-05-03T22:13:00
-5228,2026春アニメ,春夏秋冬代行者 春の舞,False,OP,1,Petals feat. 夏背,Orangestar,https://www.youtube.com/watch?v=WDeVDNg6lSE,875036,Orangestar,2026-05-03T22:13:13
-5228,2026春アニメ,春夏秋冬代行者 春の舞,False,ED,1,花筏 feat. 夏背,Orangestar,https://www.youtube.com/watch?v=WDeVDNg6lSE,875036,Orangestar,2026-05-03T22:13:27
-5228,2026春アニメ,小３アシベ QQゴマちゃん,False,主題歌,1,CUE CUE CUTE,Hey! Say! JUMP,https://www.youtube.com/watch?v=cZftmR93acE,289023,アニメ小3アシベQQゴマちゃん公式チャンネル,2026-05-03T22:13:40
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,OP,1,進化理論,BOYS AND MEN,https://www.youtube.com/watch?v=gNZNdc5UbTE,4852025,BOYS AND MEN ＜ボイメン＞ ,2026-05-03T22:13:52
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,ED,1,Go One Step Ahead,村上佳佑,https://www.youtube.com/watch?v=CGuw9xBuMVU,39427,アニメ・特撮ソング伴奏製作所,2026-05-03T22:14:03
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,ED,2,I WANNA BE WITH YOU,TETSUYA,https://www.youtube.com/watch?v=KllomiQuM3Q,12495,アニメ・特撮ソング伴奏製作所,2026-05-03T22:14:15
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,ED,3,Go Way!,SILENT SIREN,https://www.youtube.com/watch?v=EItnl7wcQZk,1552645,SILENT_SIREN,2026-05-03T22:14:26
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,ED,4,STARTRAiN,天月-あまつき-,,,,
-5228,2026春アニメ,新幹線変形ロボ シンカリオン 特別ダイヤ版,False,ED,5,スタートライン,ベリーグッドマン,https://www.youtube.com/watch?v=3g-n6WbIcDA,8414,アニメ・特撮ソング伴奏製作所,2026-05-03T22:14:49
-5228,2026春アニメ,涼宮ハルヒの憂鬱,True,OP,1,冒険でしょでしょ?,平野綾,,,,
-5228,2026春アニメ,涼宮ハルヒの憂鬱,True,ED,1,ハレ晴レユカイ,平野綾、茅原実里、後藤邑子,,,,
-5228,2026春アニメ,スノウボールアース,False,OP,1,零-zero-,tuki.,https://www.youtube.com/watch?v=2splxp-qwH0,1001886,tuki.(17),2026-05-03T22:15:03
-5228,2026春アニメ,スノウボールアース,False,ED,1,今この胸に滾るのは,ヒグチアイ,https://www.youtube.com/watch?v=0vTK8SWTgws,422037,TOHO animation,2026-05-03T22:15:15
-5228,2026春アニメ,大賢者リドルの時間逆行,False,主題歌,1,Savage,亜咲花,https://www.youtube.com/watch?v=8XeyK9hI6WI,9657,亜咲花公式チャンネル,2026-05-03T22:15:28
-5228,2026春アニメ,ダイヤのA actⅡ Second Season,False,OP,1,Let's Go Crazy,Baby Canta,https://www.youtube.com/watch?v=dPWuN1uP09g,914861,TVアニメ「ダイヤのA」シリーズ,2026-05-03T22:15:41
-5228,2026春アニメ,ダイヤのA actⅡ Second Season,False,ED,1,NUMBER,SUPER★DRAGON,https://www.youtube.com/watch?v=dPWuN1uP09g,914861,TVアニメ「ダイヤのA」シリーズ,2026-05-03T22:15:53
-5228,2026春アニメ,ただいま、おじゃまされます！,False,OP,1,C'est la vie,超特急,https://www.youtube.com/watch?v=w8ltcHURKhc,190536,超特急,2026-05-03T22:16:06
-5228,2026春アニメ,ただいま、おじゃまされます！,False,ED,1,さんかくゲーム,『ユイカ』,https://www.youtube.com/watch?v=b92uylP2yCs,512594,『ユイカ』,2026-05-03T22:16:19
-5228,2026春アニメ,だんでらいおん,False,主題歌,1,ゴロンとドロン,こっちのけんと,https://www.youtube.com/watch?v=ffxN8II-Vic,1572114,こっちのけんと,2026-05-03T22:16:33
-5228,2026春アニメ,杖と剣のウィストリア シーズン2,False,OP,1,BELIEVERS,ASH DA HERO,https://www.youtube.com/watch?v=03eMtnVjiBk,1106840,isekai channel @バンダイナムコフィルムワークス,2026-05-03T22:16:45
-5228,2026春アニメ,杖と剣のウィストリア シーズン2,False,ED,1,リーチライト,シユイ,https://www.youtube.com/watch?v=Pn0c9QIiqbo,174604,isekai channel @バンダイナムコフィルムワークス,2026-05-03T22:16:57
-5228,2026春アニメ,デザート キャッチ！ティニピン,False,OP,1,デザート キャッチ！ティニピン,Hearts2Hearts,,,,
-5228,2026春アニメ,転生したらスライムだった件 第4期,False,OP,1,絵空事,藍井エイル,https://www.youtube.com/watch?v=ILfcwl8ZKDs,201532,Lantis Channel,2026-05-03T22:17:21
-5228,2026春アニメ,転生したらスライムだった件 第4期,False,ED,1,渇望,CiON,https://www.youtube.com/watch?v=xdhkJtJcdEk,155173,CiON official YouTube Channel,2026-05-03T22:17:34
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,OP,1,CASANOVA POSSE,ALI,https://www.youtube.com/watch?v=sPxXiXucYcM,7100246,ALI,2026-05-03T22:17:47
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,OP,2,SUPERNOVA,KANA-BOON,https://www.youtube.com/watch?v=HNYp4T0kMNU,2456417,TOHO animation,2026-05-03T22:18:01
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,OP,3,スキンズ,ASIAN KUNG-FU GENERATION,https://www.youtube.com/watch?v=ycH4Twoq83I,807317,TOHO animation,2026-05-03T22:18:14
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,ED,1,Rolling Stone,BREIMEN,https://www.youtube.com/watch?v=5SGVXrvEK0o,1453819,BREIMEN _Channel,2026-05-03T22:18:27
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,ED,2,no man's world,音羽-otoha-,https://www.youtube.com/watch?v=SZhcN4jVVzA,1122108,音羽-otoha-,2026-05-03T22:18:40
-5228,2026春アニメ,Dr.STONE SCIENCE FUTURE 第3クール,False,ED,3,ROCKET,BURNOUT SYNDROMES,https://www.youtube.com/watch?v=HXvZ7Y7uYbo,629266,TOHO animation,2026-05-03T22:18:53
-5228,2026春アニメ,ドロヘドロ Season2,False,OP,1,ゼッタイMUST断面,(K)NoW_NAME,https://www.youtube.com/watch?v=LWaqlY0Xqy0,911783,(K)NoW_NAME - Topic,2026-05-03T22:19:05
-5228,2026春アニメ,ドロヘドロ Season2,False,ED,1,Return トゥ 頭（ヘッド）,(K)NoW_NAME,https://www.youtube.com/watch?v=6RnvqHkDI50,219181,(K)NoW_NAME - Topic,2026-05-03T22:19:16
-5228,2026春アニメ,とんがり帽子のアトリエ,False,OP,1,風のアンセム feat. suis from ヨルシカ,Eve,https://www.youtube.com/watch?v=ySpIrrCmiCU,2058400,Eve,2026-05-03T22:19:30
-5228,2026春アニメ,とんがり帽子のアトリエ,False,ED,1,ただ美しい呪い,Nakamura Hak,https://www.youtube.com/watch?v=rQ0S_0CepIo,1305856,TVアニメ「とんがり帽子のアトリエ」公式,2026-05-03T22:19:42
-5228,2026春アニメ,NEEDY GIRL OVERDOSE,False,OP,1,INTERNET ANGEL,Aiobahn ＋81,https://www.youtube.com/watch?v=BnkhBwzBqlQ,29176895,Aiobahn,2026-05-03T22:19:55
-5228,2026春アニメ,NEEDY GIRL OVERDOSE,False,ED,1,れびてーしょん,キタニタツヤ,https://www.youtube.com/watch?v=l7hbIgnyhe0,579425,キタニタツヤ / Tatsuya Kitani,2026-05-03T22:20:08
-5228,2026春アニメ,逃がした魚は大きかったが釣りあげた魚が大きすぎた件,False,OP,1,誓いはキュンと。,HoneyWorks feat.鈴木愛理,https://www.youtube.com/watch?v=_3aytoDQTHg,728377,MARUMOCHI from HoneyWorks,2026-05-03T22:20:22
-5228,2026春アニメ,逃がした魚は大きかったが釣りあげた魚が大きすぎた件,False,ED,1,DEAD OR LOVE,吉乃,https://www.youtube.com/watch?v=iouWS4pwX28,227515,吉乃,2026-05-03T22:20:35
-5228,2026春アニメ,逃げ上手の若君,True,OP,1,プランA,DISH//,,,,
-5228,2026春アニメ,逃げ上手の若君,True,ED,1,鎌倉STYLE,ぼっちぼろまる,,,,
-5228,2026春アニメ,日本三國,False,OP,1,火種,キタニタツヤ,https://www.youtube.com/watch?v=hA_9r-3jkSg,1806016,キタニタツヤ / Tatsuya Kitani,2026-05-03T22:20:49
-5228,2026春アニメ,日本三國,False,ED,1,誓い,Leina,https://www.youtube.com/watch?v=1KnySdlZHJU,259162,Leina,2026-05-03T22:21:02
-5228,2026春アニメ,ニワトリ・ファイター,False,OP,1,What's a Hero?,DARUMA Rollin’,https://www.youtube.com/watch?v=mfBWkIIQE9w,267737,DARUMA Rollin',2026-05-03T22:21:14
-5228,2026春アニメ,ニワトリ・ファイター,False,ED,1,We're Loose Stars,高橋哲也,https://www.youtube.com/watch?v=muqyayR_9ts,8986,HERO'S Web公式チャンネル,2026-05-03T22:21:29
-5228,2026春アニメ,ネコのクラちゃん～クラレ王国 大陸のLutte Amor～,False,OP,1,ネコのクラちゃん,ピンクスカート（宮崎寿々佳）,,,,
-5228,2026春アニメ,ネコのクラちゃん～クラレ王国 大陸のLutte Amor～,False,ED,1,未来のシンフォニー,Baby’z Breath,,,,
-5228,2026春アニメ,ねずみくんのチョッキ,False,主題歌,1,グッドラック！マイフレンド feat.ムロツヨシ & さかなクン,東京スカパラダイスオーケストラ,,,,
-5228,2026春アニメ,灰原くんの強くて青春ニューゲーム,False,OP,1,Fly Again!!,前島亜美,https://www.youtube.com/watch?v=xuyA1jEiJ8c,193665,前島亜美,2026-05-03T22:22:02
-5228,2026春アニメ,灰原くんの強くて青春ニューゲーム,False,ED,1,ドラマチック逃避行,愛美,https://www.youtube.com/watch?v=ifutP5vX5TA,21547,AIMI official YouTube Channel,2026-05-03T22:22:14
-5228,2026春アニメ,BEASTARS FINAL SEASON Part2,False,OP,1,Into the world,issei,https://www.youtube.com/watch?v=gOTNI5smH2E,1197894,TOHO animation,2026-05-03T22:22:26
-5228,2026春アニメ,BEASTARS FINAL SEASON Part2,False,OP,2,LA FERALIA,神前暁,https://www.youtube.com/watch?v=gOTNI5smH2E,1197894,TOHO animation,2026-05-03T22:22:40
-5228,2026春アニメ,BEASTARS FINAL SEASON Part2,False,ED,1,Feel Like This,由薫,,,,
-5228,2026春アニメ,BEASTARS FINAL SEASON Part2,False,ED,2,Tiny Light,SEVENTEEN,https://www.youtube.com/watch?v=5A7qyhj-HjE,828219,SEVENTEEN,2026-05-03T22:23:01
-5228,2026春アニメ,悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season２,False,OP,1,エゴ,レトロリロン,https://www.youtube.com/watch?v=4cGnQ8gFCCs,117523,MBS animation 公式チャンネル,2026-05-03T22:23:14
-5228,2026春アニメ,悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season２,False,ED,1,たられば,ガラクタ,https://www.youtube.com/watch?v=xSNhOhCEaC4,27686,MBS animation 公式チャンネル,2026-05-03T22:23:27
-5228,2026春アニメ,左ききのエレン,False,OP,1,FUNKIN’ BEAUTIFUL feat. ZORN,ALI,https://www.youtube.com/watch?v=8V9cwO1ZxGk,80366,ALI,2026-05-03T22:23:39
-5228,2026春アニメ,左ききのエレン,False,ED,1,New Walk,紫 今,https://www.youtube.com/watch?v=vlbobXEQLqY,125026,ギャガ公式チャンネル,2026-05-03T22:23:50
-5228,2026春アニメ,姫騎士は蛮族（バルバロイ）の嫁,False,OP,1,BEAUTIFUL,前島麻由,,,,
-5228,2026春アニメ,姫騎士は蛮族（バルバロイ）の嫁,False,ED,1,シルベキコト,sajou no hana,,,,
-5228,2026春アニメ,百鬼夜行抄,False,ED,1,何にもなれない,ヤングスキニー,,,,
-5228,2026春アニメ,ぷにるんず ぷに３,True,主題歌,1,ぷにぷにぷにるんず ぷにックスバージョン,ななひら,,,,
-5228,2026春アニメ,北斗の拳 -FIST OF THE NORTH STAR-,False,OP,1,Hallelujah,[Alexandros],,,,
-5228,2026春アニメ,北斗の拳 -FIST OF THE NORTH STAR-,False,ED,1,愛をとりもどせ!!,Toshl,,,,
-5228,2026春アニメ,ポンコツ風紀委員とスカート丈が不適切なJKの話,False,OP,1,ヒトリゴト,osage,https://www.youtube.com/watch?v=0XwlRpvjbmY,3513,osage official,2026-05-03T22:24:51
-5228,2026春アニメ,ポンコツ風紀委員とスカート丈が不適切なJKの話,False,ED,1,部屋とガラクタと私,ミーマイナー,https://www.youtube.com/watch?v=6TOl476i5Q8,27410,ミーマイナー,2026-05-03T22:25:04
-5228,2026春アニメ,本好きの下剋上 領主の養女,False,OP,1,Pages,Little Glee Monster,https://www.youtube.com/watch?v=DNa76ODisco,429127,Little Glee Monster,2026-05-03T22:25:17
-5228,2026春アニメ,本好きの下剋上 領主の養女,False,ED,1,今も、ありがとう,生田絵梨花,https://www.youtube.com/watch?v=kX0u1U7wMDk,705610,生田絵梨花 Official YouTube Channel,2026-05-03T22:25:32
-5228,2026春アニメ,魔入りました！入間くん 第4シリーズ,False,OP,1,一二三,Penthouse,https://www.youtube.com/watch?v=m4yCXpCiXpk,705610,Penthouse,2026-05-03T22:25:46
-5228,2026春アニメ,魔入りました！入間くん 第4シリーズ,False,ED,1,すーぱー優勝ちゅーーん！,CANDY TUNE,https://www.youtube.com/watch?v=jMhzqfi9aPw,630585,アニメ「魔入りました!入間くん」公式Anime OFFICIAL,2026-05-03T22:25:58
-5228,2026春アニメ,前橋ウィッチーズ,True,OP,1,スゴすぎ前橋ウィッチーズ！,前橋ウィッチーズ,,,,
-5228,2026春アニメ,前橋ウィッチーズ,True,ED,1,それぞれのドア,前橋ウィッチーズ,,,,
-5228,2026春アニメ,MAO,False,OP,1,HEARTLOUD,Kis-My-Ft2,https://www.youtube.com/watch?v=MGUp9RBrou4,10157104,Kis-My-Ft2,2026-05-03T22:26:13
-5228,2026春アニメ,MAO,False,ED,1,呪愛,TRUE,https://www.youtube.com/watch?v=eVfpoS0rjw0,1659920,Bandai Namco Filmworks Channel,2026-05-03T22:26:25
-5228,2026春アニメ,また殺されてしまったのですね、探偵様,False,OP,1,スターダスト・エウレカ,多次元制御機構よだか,https://www.youtube.com/watch?v=Z53w6cpG5GM,48053,TBSアニメ,2026-05-03T22:26:35
-5228,2026春アニメ,また殺されてしまったのですね、探偵様,False,ED,1,リリテアの歌,リリテア（CV.若山詩音）,https://www.youtube.com/watch?v=ZvHOYO6tfvk,16033,リリテア（CV:若山詩音） - Topic,2026-05-03T22:26:41
-5228,2026春アニメ,魔法の姉妹ルルットリリィ,False,OP,1,Bubee,ILLIT,https://www.youtube.com/watch?v=OZ44P4JU87E,1544080,ILLIT,2026-05-03T22:26:55
-5228,2026春アニメ,魔法の姉妹ルルットリリィ,False,ED,1,Calling,ルルットリリィ（こんぺとリリィ（CV.橘めい）、ましゅールル（CV.小鹿なお））,https://www.youtube.com/watch?v=803SES0YVcM,209352,Bandai Namco Filmworks Channel,2026-05-03T22:27:07
-5228,2026春アニメ,魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～,False,OP,1,正気の沙汰,NEE,https://www.youtube.com/watch?v=0j7O1Sw62Ms,39536,NEE,2026-05-03T22:27:20
-5228,2026春アニメ,魔物喰らいの冒険者～俺だけ魔物を喰らって強くなる～,False,ED,1,STORY,niina,,,,
-5228,2026春アニメ,茉莉花ちゃんの好感度はぶっ壊れている,False,主題歌,1,はかりたい好感度,千歳茉莉花（CV.内田真礼）,,,,
-5228,2026春アニメ,マリッジトキシン,False,OP,1,Kill or Kiss,平手友梨奈,https://www.youtube.com/watch?v=QbNwgXAXq9M,964216,平手友梨奈,2026-05-03T22:27:50
-5228,2026春アニメ,マリッジトキシン,False,ED,1,シャケナベイベー,AKASAKI,https://www.youtube.com/watch?v=WwI7hPXZC-Y,2444210,AKASAKI (19),2026-05-03T22:28:02
-5228,2026春アニメ,メイドさんは食べるだけ,False,OP,1,リボン,majiko,https://www.youtube.com/watch?v=VHD2269UqdM,37559,ハピネット【アニメ公式】,2026-05-03T22:28:14
-5228,2026春アニメ,メイドさんは食べるだけ,False,ED,1,しあわせフレーバー,ARCANA PROJECT,https://www.youtube.com/watch?v=vBSo4npKK9A,11878,ハピネット【アニメ公式】,2026-05-03T22:28:25
-5228,2026春アニメ,女神「異世界転生何になりたいですか」 俺「勇者の肋骨で」,False,OP,1,転生願望,終活クラブ,https://www.youtube.com/watch?v=suKjfBsH3UM,147879,アニメ『女神「異世界転生何になりたいですか」 俺「勇者の肋骨で」』,2026-05-03T22:28:38
-5228,2026春アニメ,女神「異世界転生何になりたいですか」 俺「勇者の肋骨で」,False,ED,1,何なんですか？,shallm,https://www.youtube.com/watch?v=suKjfBsH3UM,147879,アニメ『女神「異世界転生何になりたいですか」 俺「勇者の肋骨で」』,2026-05-03T22:28:51
-5228,2026春アニメ,ようこそ実力至上主義の教室へ 4th Season,False,OP,1,MONSTER,藍井エイル,https://www.youtube.com/watch?v=l78_JpSXfxw,358837,Lantis Channel,2026-05-03T22:29:04
-5228,2026春アニメ,ようこそ実力至上主義の教室へ 4th Season,False,ED,1,ライアーヴェール,ZAQ,https://www.youtube.com/watch?v=jl7GmJBNxk4,89423,ZAQ Official Channel,2026-05-03T22:29:16
-5228,2026春アニメ,幼女戦記,True,OP,1,JINGO JUNGLE,MYTH ＆ROID,,,,
-5228,2026春アニメ,幼女戦記,True,ED,1,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧),,,,
-5228,2026春アニメ,夜桜さんちの大作戦 第2期,False,OP,1,"What's ""KAZOKU""",櫻坂46,https://www.youtube.com/watch?v=AIspds2UVts,187933,NBCUniversal Anime/Music,2026-05-03T22:29:28
-5228,2026春アニメ,夜桜さんちの大作戦 第2期,False,ED,1,Shalala,ピラフ星人,https://www.youtube.com/watch?v=X6fNe1uPs9E,234792,NBCUniversal Anime/Music,2026-05-03T22:29:40
-5228,2026春アニメ,黄泉のツガイ,False,OP,1,飛ぶ時,Vaundy,https://www.youtube.com/watch?v=LVCwdZoUFQ8,3496214,Vaundy,2026-05-03T22:29:53
-5228,2026春アニメ,黄泉のツガイ,False,ED,1,飛ぼうよ,yama,https://www.youtube.com/watch?v=8uRMfPTAhkU,373757,yama,2026-05-03T22:30:06
-5228,2026春アニメ,よわよわ先生,False,OP,1,COMIT COMET,Daoko,https://www.youtube.com/watch?v=0jO_isUIymg,129233,日活アニメチャンネル,2026-05-03T22:30:19
-5228,2026春アニメ,よわよわ先生,False,ED,1,よわよわ つよつよ みにみに こわこわ,鶸村ひより(CV：高野麻里佳)、椋林瑞希(CV：伊駒ゆりえ)、雪下祐樹(CV：篠原侑),https://www.youtube.com/watch?v=LRPRccAPekk,132505,日活アニメチャンネル,2026-05-03T22:30:33
-5228,2026春アニメ,LIAR GAME,False,OP,1,あぶく,ヨルシカ,https://www.youtube.com/watch?v=OHAjc-ayhus,6187955,ヨルシカ / n-buna Official,2026-05-03T22:30:46
-5228,2026春アニメ,LIAR GAME,False,ED,1,朝日,Lucky Kilimanjaro,https://www.youtube.com/watch?v=hyp8GGN7C1w,58183,Lucky Kilimanjaro,2026-05-03T22:31:00
-5228,2026春アニメ,リィンカーネーションの花弁,False,OP,1,Glitch*,eill,https://www.youtube.com/watch?v=fsgD8mLRxwo,208770,eill official,2026-05-03T22:31:16
-5228,2026春アニメ,リィンカーネーションの花弁,False,ED,1,零,Sizuk,https://www.youtube.com/watch?v=LimcX6xNEaY,59739,Sizuk / Shunryu,2026-05-03T22:31:29
-5228,2026春アニメ,Re:ゼロから始める異世界生活 4th season,False,OP,1,Recollect,鈴木このみ feat. Ashnikko,https://www.youtube.com/watch?v=VDGG9zi53rQ,5097812,「Re:ゼロから始める異世界生活」チャンネル【公式】,2026-05-03T22:31:42
-5228,2026春アニメ,Re:ゼロから始める異世界生活 4th season,False,ED,1,Ender Ember,MYTH & ROID feat. TK（凛として時雨）,https://www.youtube.com/watch?v=iKLqlb_oX60,579546,「Re:ゼロから始める異世界生活」チャンネル【公式】,2026-05-03T22:31:54
-5228,2026春アニメ,リラックマ,False,主題歌,1,stay with me,幾田りら,https://www.youtube.com/watch?v=JcDyAzbGA78,369868,幾田りら / Lilas Official,2026-05-03T22:32:07
-5228,2026春アニメ,レプリカだって、恋をする。,False,OP,1,リフレイン,シャイトープ,https://www.youtube.com/watch?v=BEj-QbHC54M,34216,KADOKAWAanime,2026-05-03T22:32:18
-5228,2026春アニメ,レプリカだって、恋をする。,False,ED,1,あわ,asmi,https://www.youtube.com/watch?v=ikqz8riLe1M,24006,asmi Official Channel,2026-05-03T22:32:31
 5806,2026夏アニメ,アズールレーン びそくぜんしんっ！にっ！！,False,主題歌,1,しゃいすまっ！,榊原ゆい,,,,
 5806,2026夏アニメ,アズールレーン びそくぜんしんっ！にっ！！,False,主題歌,2,Lu lu lun♪〜ウラハラ気分はオートマティック〜,橋本みゆき,,,,
+5806,2026夏アニメ,岩元先輩ノ推薦,False,OP,1,BUDDING,THE JET BOY BANGERZ,,,,
+5806,2026夏アニメ,岩元先輩ノ推薦,False,ED,1,ココニイル,WOLF HOWL HARMONY,,,,
+5806,2026夏アニメ,うしろの正面カムイさん,False,OP,1,成仏Come true,ORCALAND,,,,
+5806,2026夏アニメ,うしろの正面カムイさん,False,ED,1,SAY-BYE!!,KOTOKO,,,,
+5806,2026夏アニメ,うちの弟どもがすみません,False,OP,1,アイコトバ,DISH//,,,,
+5806,2026夏アニメ,うちの弟どもがすみません,False,ED,1,Clover,汐れいら,,,,
+5806,2026夏アニメ,ウルトラマンテオ,False,主題歌,1,LINK HEARTS,ASTRO DONUTS,,,,
 5806,2026夏アニメ,骸骨騎士様、只今異世界へお出掛け中Ⅱ,False,OP,1,浪漫街道、お散歩中,PelleK,,,,
 5806,2026夏アニメ,骸骨騎士様、只今異世界へお出掛け中Ⅱ,False,ED,1,奇跡は起きない,DIALOGUE+,,,,
 5806,2026夏アニメ,片田舎のおっさん、剣聖になるII,False,OP,1,クレナイノハ,ユニコーン,,,,
+5806,2026夏アニメ,株式会社マジルミエ 第2期,False,ED,1,BooooM!!!,宝鐘マリン,,,,
+5806,2026夏アニメ,ぐらんぶる Season 3,False,OP,1,夏子,FUNKY MONKEY BΛBY'S,,,,
 5806,2026夏アニメ,ぐらんぶる Season 3,False,ED,1,裸のマーメード,豆柴の大群,,,,
 5806,2026夏アニメ,クレバテスII-魔獣の王と偽りの勇者伝承-,False,ED,1,Awake Anew,MYTH & ROID,,,,
 5806,2026夏アニメ,コードギアス 奪還のロゼ TV放送,False,OP,1,Running In My Head,MIYAVI,,,,
 5806,2026夏アニメ,コードギアス 奪還のロゼ TV放送,False,ED,1,ロゼ (Prod.TeddyLoid),満島ひかり,,,,
 5806,2026夏アニメ,これ描いて死ね,False,OP,1,遺書,キタニタツヤ,,,,
-5806,2026夏アニメ,サイボーグ009 ネメシス,False,主題歌,1,誰がために,杏子,,,,
+5806,2026夏アニメ,才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様(生活能力皆無)を陰ながらお世話することになりました,False,OP,1,最最最高級のお世話して,angela,,,,
+5806,2026夏アニメ,サイボーグ009 ネメシス,False,OP,1,誰がために,杏子,,,,
 5806,2026夏アニメ,さよならララ,False,OP,1,さよならララ,いきものがかり,,,,
+5806,2026夏アニメ,スーパーの裏でヤニ吸うふたり,False,OP,1,イチジク煙,ずっと真夜中でいいのに。,,,,
 5806,2026夏アニメ,スーパーの裏でヤニ吸うふたり,False,ED,1,Fiction,imase,,,,
+5806,2026夏アニメ,捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました,False,OP,1,Butterfly,INUWASI,,,,
+5806,2026夏アニメ,捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました,False,ED,1,Holy Sweet Home,音感れもねゐど,,,,
 5806,2026夏アニメ,正反対な君と僕 第2期,False,OP,1,メガネを外して,乃紫,,,,
+5806,2026夏アニメ,正反対な君と僕 第2期,False,OP,2,猫じゃらし,7co,,,,
 5806,2026夏アニメ,正反対な君と僕 第2期,False,ED,1,ピュア feat. 橋本絵莉子,PAS TASTA,,,,
 5806,2026夏アニメ,対ありでした。～お嬢さまは格闘ゲームなんてしない～,False,OP,1,命短し対する乙女よ,花冷え。,,,,
+5806,2026夏アニメ,追放された転生重騎士はゲーム知識で無双する,False,OP,1,Awake,SPYAIR,,,,
+5806,2026夏アニメ,鉄鍋のジャン！,False,OP,1,火宴,原因は自分にある。,,,,
 5806,2026夏アニメ,手札が多めのビクトリア,False,ED,1,縁のつき,KI_EN,,,,
 5806,2026夏アニメ,転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件,False,OP,1,夏に重ねて,DIALOGUE+,,,,
 5806,2026夏アニメ,天は赤い河のほとり,False,OP,1,暁の空,七海ひろき,,,,
+5806,2026夏アニメ,天幕のジャードゥーガル,False,OP,1,Stella,SEKAI NO OWARI,,,,
 5806,2026夏アニメ,盗掘王,False,OP,1,SHOW DOWN,QWER,,,,
 5806,2026夏アニメ,透明な夜に駆ける君と、目に見えない恋をした。,False,ED,1,光,櫻井優衣,,,,
 5806,2026夏アニメ,二十世紀電氣目録-ユーレカ・エヴリカ-,False,OP,1,ユーレカ・エヴリカ,五阿弥ルナ,,,,
+5806,2026夏アニメ,刃牙道 第2クール,False,OP,1,フルボコ,WANIMA,,,,
+5806,2026夏アニメ,刃牙道 第2クール,False,ED,1,Mountain Top,Novel Core,,,,
+5806,2026夏アニメ,花ざかりの君たちへ 第2期,False,OP,1,FLASHBULB,Omoinotake,,,,
+5806,2026夏アニメ,花ざかりの君たちへ 第2期,False,ED,1,花束,Omoinotake,,,,
+5806,2026夏アニメ,ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！,False,OP,1,マデュアル↔ハート,メロディ・ウェーブ(CV：宮本侑芽) ルシアナ・ルトルバーグ(CV：大久保瑠美),,,,
+5806,2026夏アニメ,ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！,False,ED,1,ハンドメイド,仲村宗悟,,,,
 5806,2026夏アニメ,ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～,False,OP,1,Q.E.D.,小倉唯,,,,
 5806,2026夏アニメ,ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～,False,ED,1,グッバイ・ララバイ,大西亜玖璃,,,,
 5806,2026夏アニメ,プラノサウルス ガチコセイブツ部,False,主題歌,1,ガチde古生,リンクルプラネット,,,,
 5806,2026夏アニメ,炎の闘球女 ドッジ弾子,False,ED,1,Welcome to あざとさワールド,i☆Ris,,,,
+5806,2026夏アニメ,魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance,False,OP,1,CRIMSON BULLET,水樹奈々,,,,
 5806,2026夏アニメ,魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance,False,ED,1,Ephemeral,青木陽菜,,,,
 5806,2026夏アニメ,無自覚聖女は今日も無意識に力を垂れ流す,False,OP,1,Windmaker,花耶,,,,
+5806,2026夏アニメ,無自覚聖女は今日も無意識に力を垂れ流す,False,ED,1,アンノウンミー,ウタヒメドリーム オールスターズ【夢咲いぶき（CV:山﨑玲奈） 桜木舞華（CV:鈴木杏奈） 真白清美（CV:其原有沙） HiREN（CV:花耶） 水月ひかり（CV:礒部花凜） 高木凛（CV:鷲見友美ジェナ） 萩原ひまわり（CV:倉知玲鳳） SAKURAKO（CV:竹内夢）】,,,,
 5806,2026夏アニメ,無職転生Ⅲ ～異世界行ったら本気だす～,False,OP,1,決意の唄,大原ゆい子,,,,
+5806,2026夏アニメ,メビウス・ダスト,False,OP,1,メビウス,家入レオ,,,,
+5806,2026夏アニメ,ヤニねこ,False,OP,1,なんもねえ,忘れらんねえよ,,,,
 5806,2026夏アニメ,鎧真伝サムライトルーパー 第2クール,False,OP,1,YOAKE,blank paper,,,,
 5806,2026夏アニメ,鎧真伝サムライトルーパー 第2クール,False,ED,1,POWER,ONE OR EIGHT,,,,
+5806,2026夏アニメ,落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～,False,ED,1,憧憬,TrySail,,,,
+5806,2026夏アニメ,領民0人スタートの辺境領主様,False,OP,1,Wonder,CROWN HEAD,,,,
+5806,2026夏アニメ,領民0人スタートの辺境領主様,False,ED,1,星降る夜の約束,花耶,,,,
 5806,2026夏アニメ,令和のダラさん,False,OP,1,ダラダラ♡ダンシング,ダラさん（CV：田村睦心） 三⼗⽊⾕⽇向（CV：津田美波） 三⼗⽊⾕薫（CV：寺澤百花） ナレーション（CV：てらそままさき）,,,,
 5806,2026夏アニメ,LV999の村人,False,OP,1,Not a Hero,藍月なくる&棗いつき,,,,
 5806,2026夏アニメ,ワールド イズ ダンシング,False,OP,1,終宵,マカロニえんぴつ,,,,
+5947,2026秋アニメ,転生した大聖女は、聖女であることをひた隠す,False,OP,1,Flare of Soul,花耶,,,,
+5947,2026秋アニメ,転生した大聖女は、聖女であることをひた隠す,False,ED,1,STELLAR,ウタヒメドリーム オールスターズ,,,,
+5947,2026秋アニメ,魔法少女育成計画restart,False,OP,1,No tears here,茅原実里,,,,
