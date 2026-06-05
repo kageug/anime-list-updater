@@ -1,5 +1,10 @@
 # 更新履歴
 
+## 2026-06-05
+
+### 新規YouTube動画発見 (1 件)
+- [コードギアス 奪還のロゼ TV放送] OP1 「Running In My Head」MIYAVI → コードギアスチャンネル CODEGEASS Channel https://www.youtube.com/watch?v=HSakQbaQifs
+
 ## 2026-06-04
 
 ### 新規アニメ (3 件)
