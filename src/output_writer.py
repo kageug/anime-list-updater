@@ -36,9 +36,12 @@ SONG_COLUMNS = [
     "index",       # 1, 2, ...
     "song_title",
     "artist",
-    "youtube_url",
+    "youtube_url",          # 統計対象 (再生数1位の公式動画) = xlsm A列
     "youtube_views",
     "youtube_channel",
+    "anime_youtube_url",    # アニメ版動画 (切り抜き素材用) = xlsm H列
+    "anime_youtube_views",
+    "anime_youtube_channel",
     "last_searched_at",
 ]
 
@@ -89,6 +92,9 @@ def to_song_rows(animes: Iterable[Anime]) -> list[dict]:
                 "youtube_url": "",
                 "youtube_views": "",
                 "youtube_channel": "",
+                "anime_youtube_url": "",
+                "anime_youtube_views": "",
+                "anime_youtube_channel": "",
                 "last_searched_at": "",
             })
     return rows
@@ -117,6 +123,9 @@ def write_outputs(
                 row["youtube_url"] = yt.get("url", "")
                 row["youtube_views"] = yt.get("views", "")
                 row["youtube_channel"] = yt.get("channel", "")
+                row["anime_youtube_url"] = yt.get("anime_url", "")
+                row["anime_youtube_views"] = yt.get("anime_views", "")
+                row["anime_youtube_channel"] = yt.get("anime_channel", "")
                 row["last_searched_at"] = yt.get("searched_at", "")
 
     df_anime = pd.DataFrame(anime_rows, columns=ANIME_COLUMNS)

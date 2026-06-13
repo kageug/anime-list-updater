@@ -59,6 +59,16 @@ def _artist_tokens(artist: str) -> list[str]:
     return tokens
 
 
+def _song_tokens(song_title: str) -> list[str]:
+    """曲名から照合用トークンを取り出す。正規化済み全文を 1 トークンとして返す。"""
+    if not song_title:
+        return []
+    n = _normalize(song_title)
+    if len(n) >= 2:
+        return [n]
+    return []
+
+
 def _anime_tokens(anime_title: str) -> list[str]:
     """アニメタイトルから照合用トークンを取り出す。"""
     if not anime_title:
@@ -89,6 +99,28 @@ _OFFICIAL_CHANNEL_HINTS = (
     "lantis", "ランティス", "victorent", "ビクター",
 )
 
+# 「アニメ版動画」とみなすチャンネルヒント（アニメ寄り限定）
+# レコード会社系（ソニーミュージック、ワーナー、エイベックス等）は除外。
+_ANIME_CHANNEL_HINTS = (
+    "アニメ", "anime", "アニプレックス", "aniplex",
+    "kadokawa", "ジャンプ", "jumpchannel", "noitamina",
+    "東映", "toei", "ぽにきゃん", "ponycanyon",
+    "mappa", "bandai", "lantis", "ランティス",
+    "tvアニメ", "tv anime",
+)
+
+# 動画タイトルに含まれていれば「アニメ版OP/ED映像」と強く判定する語
+# (ノンクレジット = アニメ会社のスタッフロールなしOP/ED 公式アップ)
+_ANIME_VERSION_TITLE_HINTS = (
+    "ノンクレジット", "ノンテロップ", "ノンテロ",
+    "non credit", "non-credit", "noncredit",
+    "creditless", "credit-less",
+    "クレジットなし", "クレジット無し",
+    "tvサイズ", "tv size", "テレビアニメ",
+    "オープニング映像", "エンディング映像",
+    "opening movie", "ending movie",
+)
+
 
 def _has_token(text_norm: str, tokens: list[str]) -> bool:
     return any(t in text_norm for t in tokens)
@@ -96,6 +128,60 @@ def _has_token(text_norm: str, tokens: list[str]) -> bool:
 
 def _is_distributor_channel(channel_norm: str) -> bool:
     return any(h in channel_norm for h in _OFFICIAL_CHANNEL_HINTS)
+
+
+def _is_anime_channel(channel_norm: str) -> bool:
+    return any(h in channel_norm for h in _ANIME_CHANNEL_HINTS)
+
+
+def _title_has_anime_version_hint(video_title_norm: str) -> bool:
+    return any(_normalize(h) in video_title_norm for h in _ANIME_VERSION_TITLE_HINTS)
+
+
+def is_anime_video(
+    channel_name: str,
+    video_title: str,
+    anime_title: str,
+    artist: str,
+    song_title: str = "",
+) -> bool:
+    """「アニメ版動画」(=切り抜き素材として使えるアニメ寄り動画) 判定。
+    判定条件 (アニメ性):
+      1) チャンネル名にアニメタイトルのトークンが含まれる
+      2) チャンネル名がアニメ寄り配給ヒントを含み、かつ動画タイトルに
+         アニメタイトルのトークンが含まれる
+      3) 動画タイトルに「ノンクレジット」「Non-Credit」等の明示的なアニメ版
+         キーワードが含まれ、かつ動画タイトルにアニメタイトルのトークンが含まれる
+
+    曲レベル一致 (song_title or artist が分かっている場合):
+      動画タイトルに 曲名 か 歌手名トークン のいずれかが含まれていなければ拒否。
+      同一アニメの別曲のノンクレ動画を誤って拾うのを防ぐ。
+    """
+    ch = _normalize(channel_name)
+    if not ch:
+        return False
+    anime_toks = _anime_tokens(anime_title)
+    if not anime_toks:
+        return False
+    title_norm = _normalize(video_title)
+
+    is_anime_match = False
+    if _has_token(ch, anime_toks):
+        is_anime_match = True
+    elif _is_anime_channel(ch) and _has_token(title_norm, anime_toks):
+        is_anime_match = True
+    elif _title_has_anime_version_hint(title_norm) and _has_token(title_norm, anime_toks):
+        is_anime_match = True
+    if not is_anime_match:
+        return False
+
+    # 曲レベル一致: 曲名 / 歌手名トークンの少なくとも一方が動画タイトルにあること
+    song_toks = _song_tokens(song_title)
+    artist_toks = _artist_tokens(artist)
+    if song_toks or artist_toks:
+        if not (_has_token(title_norm, song_toks) or _has_token(title_norm, artist_toks)):
+            return False
+    return True
 
 
 def is_official_video(
@@ -146,6 +232,34 @@ def _build_query(song_title: str, artist: str, anime_title: str) -> str:
     return " ".join(parts)
 
 
+# kind 別のセカンダリ検索ヒント（強い順）
+_SECONDARY_HINTS = {
+    "OP": ["ノンクレジットOP", "ノンクレジット オープニング", "オープニング映像"],
+    "ED": ["ノンクレジットED", "ノンクレジット エンディング", "エンディング映像"],
+    "主題歌": ["ノンクレジット 主題歌", "主題歌 映像"],
+    "IN": ["挿入歌"],
+}
+SECONDARY_QUERY_LIMIT = 2  # セカンダリは最大2回試す
+
+
+def _build_secondary_queries(song_title: str, artist: str, anime_title: str, kind: str) -> list[str]:
+    """アニメ版動画を狙ったセカンダリ検索クエリ群を優先順に返す。
+
+    曲名が極端に短い (3文字以下) 場合は曲名単独だと一般語にヒットしやすいので
+    必ずアニメ名を併記する。アーティスト名は混入させない（アーティストMVを引きにくくする）。
+    """
+    hints = _SECONDARY_HINTS.get(kind) or _SECONDARY_HINTS["OP"]
+    is_short = len((song_title or "").replace(" ", "")) <= 3
+    queries: list[str] = []
+    for hint in hints[:SECONDARY_QUERY_LIMIT]:
+        # アニメ名 + 曲名 + ヒント (アーティスト省略)
+        parts = [anime_title, song_title, hint] if is_short or anime_title else [song_title, hint]
+        q = " ".join(p for p in parts if p).strip()
+        if q:
+            queries.append(q)
+    return queries
+
+
 def _run_ytdlp(query: str) -> list[dict]:
     """yt-dlp 検索を実行し、候補のメタデータ list を返す。"""
     cmd = [
@@ -188,24 +302,39 @@ def _run_ytdlp(query: str) -> list[dict]:
     return []
 
 
-def _select_best(results: list[dict], anime_title: str, artist: str) -> dict | None:
-    """公式チャンネル候補のうち最高再生数を返す。なければ None。"""
-    best: dict | None = None
-    best_views = -1
+def _select_best(
+    results: list[dict],
+    anime_title: str,
+    artist: str,
+    song_title: str = "",
+) -> tuple[dict | None, dict | None]:
+    """検索結果から
+      - best_overall: 公式判定 (アーティスト/アニメどちらも可) で最高再生数 (= 統計対象, A列)
+      - best_anime:   アニメ寄り動画で最高再生数 (= アニメ版動画, H列)
+    を返す。best_overall が既にアニメ動画なら best_anime は同じものを指す。
+    """
+    best_overall: dict | None = None
+    best_overall_views = -1
+    best_anime: dict | None = None
+    best_anime_views = -1
     for r in results:
         ch = (r.get("channel") or r.get("uploader") or "")
         title = r.get("title") or ""
-        if not is_official_video(ch, title, anime_title, artist):
-            continue
         views = r.get("view_count") or 0
         try:
             views = int(views)
         except (TypeError, ValueError):
             views = 0
-        if views > best_views:
-            best_views = views
-            best = r
-    return best
+
+        if is_official_video(ch, title, anime_title, artist):
+            if views > best_overall_views:
+                best_overall_views = views
+                best_overall = r
+        if is_anime_video(ch, title, anime_title, artist, song_title):
+            if views > best_anime_views:
+                best_anime_views = views
+                best_anime = r
+    return best_overall, best_anime
 
 
 def _cache_key(season_id: int, anime_title: str, kind: str, index: int, song_title: str, artist: str) -> str:
@@ -242,6 +371,19 @@ def _save_cache(path: Path, cache: dict[str, dict]) -> None:
         json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
 
 
+def _entry_to_out(entry: dict) -> dict:
+    """キャッシュ entry → 出力辞書（A列+H列両方含む）。"""
+    return {
+        "url": entry.get("url", ""),
+        "views": entry.get("views", ""),
+        "channel": entry.get("channel", ""),
+        "searched_at": entry.get("searched_at", ""),
+        "anime_url": entry.get("anime_url", ""),
+        "anime_views": entry.get("anime_views", ""),
+        "anime_channel": entry.get("anime_channel", ""),
+    }
+
+
 def load_cached_only(animes: list[Anime], data_dir: Path) -> dict[tuple, dict]:
     """検索を一切せず、既存キャッシュにあるものだけを返す。"""
     cache = _load_cache(data_dir / CACHE_FILENAME)
@@ -251,12 +393,7 @@ def load_cached_only(animes: list[Anime], data_dir: Path) -> dict[tuple, dict]:
             ckey = _cache_key(anime.season_id, anime.title, song.kind, song.index, song.title, song.artist)
             entry = cache.get(ckey)
             if entry and entry.get("url"):
-                out[(anime.season_id, anime.title, song.kind, song.index)] = {
-                    "url": entry["url"],
-                    "views": entry.get("views", ""),
-                    "channel": entry.get("channel", ""),
-                    "searched_at": entry.get("searched_at", ""),
-                }
+                out[(anime.season_id, anime.title, song.kind, song.index)] = _entry_to_out(entry)
     return out
 
 
@@ -279,38 +416,99 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
             done += 1
             ckey = _cache_key(anime.season_id, anime.title, song.kind, song.index, song.title, song.artist)
             entry = cache.get(ckey)
-            if entry and _is_cache_fresh(entry):
+            # 旧キャッシュ（anime_url キー無し）は再検索対象とする
+            has_anime_field = entry is not None and "anime_url" in entry
+            secondary_tried = entry is not None and entry.get("anime_secondary_tried")
+            cache_complete = (
+                entry is not None
+                and (not entry.get("url") or has_anime_field)
+                and (entry.get("anime_url") or secondary_tried)
+            )
+            if entry and _is_cache_fresh(entry) and cache_complete:
                 if entry.get("url"):
-                    out[(anime.season_id, anime.title, song.kind, song.index)] = {
-                        "url": entry["url"],
-                        "views": entry.get("views", ""),
-                        "channel": entry.get("channel", ""),
-                        "searched_at": entry["searched_at"],
-                    }
+                    out[(anime.season_id, anime.title, song.kind, song.index)] = _entry_to_out(entry)
+                continue
+
+            # キャッシュにプライマリ結果がある（url埋まり）かつ anime_url が空、
+            # かつまだ secondary を試していない場合: プライマリは流用しセカンダリだけ実行
+            if (entry and entry.get("url") and not entry.get("anime_url")
+                    and not secondary_tried and _is_cache_fresh(entry)):
+                primary_anime = None  # 既にプライマリで見つからなかった
+                for sec_q in _build_secondary_queries(song.title, song.artist, anime.title, song.kind):
+                    print(f"[search {done}/{total} retry-anime] {anime.title} {song.kind}{song.index}: {sec_q[:80]}")
+                    sec_results = _run_ytdlp(sec_q)
+                    _, sec_anime = _select_best(sec_results, anime.title, song.artist, song.title)
+                    if sec_anime is not None:
+                        primary_anime = sec_anime
+                        break
+                    time.sleep(THROTTLE_SEC)
+                entry["anime_secondary_tried"] = True
+                if primary_anime is not None:
+                    entry["anime_url"] = primary_anime.get("webpage_url", "")
+                    entry["anime_views"] = primary_anime.get("view_count", "")
+                    entry["anime_channel"] = primary_anime.get("channel") or primary_anime.get("uploader", "")
+                    print(f"  → anime: {entry['anime_channel']} ({entry['anime_views']} views)")
+                else:
+                    print(f"  → anime: not found")
+                cache[ckey] = entry
+                out[(anime.season_id, anime.title, song.kind, song.index)] = _entry_to_out(entry)
+                time.sleep(THROTTLE_SEC)
                 continue
 
             query = _build_query(song.title, song.artist, anime.title)
             print(f"[search {done}/{total}] {anime.title} {song.kind}{song.index}: {query[:80]}")
             results = _run_ytdlp(query)
-            best = _select_best(results, anime.title, song.artist)
+            best_overall, best_anime = _select_best(results, anime.title, song.artist)
+
+            # プライマリでアニメ版が見つからなかった場合、ノンクレジット系
+            # キーワードでセカンダリ検索を最大 SECONDARY_QUERY_LIMIT 回試す
+            if best_overall is not None and best_anime is None:
+                for sec_q in _build_secondary_queries(song.title, song.artist, anime.title, song.kind):
+                    time.sleep(THROTTLE_SEC)
+                    print(f"  [retry anime] {sec_q[:80]}")
+                    sec_results = _run_ytdlp(sec_q)
+                    _, sec_anime = _select_best(sec_results, anime.title, song.artist, song.title)
+                    if sec_anime is not None:
+                        best_anime = sec_anime
+                        break
+
             now = dt.datetime.now().isoformat(timespec="seconds")
-            if best:
+            secondary_was_tried = best_overall is not None  # 上で best_overall ありなら secondary を回した
+            if best_overall or best_anime:
+                # アニメ版が見つかっていて A列(統計対象) が無い場合は A列にもアニメ版を入れる
+                primary = best_overall or best_anime
+                # best_overall が既にアニメ寄り動画なら H列 = A列（"右に同じ"）
+                anime_pick = best_anime
+                if best_overall and best_anime and best_overall.get("webpage_url") == best_anime.get("webpage_url"):
+                    anime_pick = best_overall
+
                 cache[ckey] = {
-                    "url": best.get("webpage_url", ""),
-                    "views": best.get("view_count", ""),
-                    "channel": best.get("channel") or best.get("uploader", ""),
-                    "title": best.get("title", ""),
+                    "url": primary.get("webpage_url", ""),
+                    "views": primary.get("view_count", ""),
+                    "channel": primary.get("channel") or primary.get("uploader", ""),
+                    "title": primary.get("title", ""),
+                    "anime_url": anime_pick.get("webpage_url", "") if anime_pick else "",
+                    "anime_views": anime_pick.get("view_count", "") if anime_pick else "",
+                    "anime_channel": (anime_pick.get("channel") or anime_pick.get("uploader", "")) if anime_pick else "",
+                    "anime_secondary_tried": secondary_was_tried,
                     "searched_at": now,
                 }
-                out[(anime.season_id, anime.title, song.kind, song.index)] = {
-                    "url": cache[ckey]["url"],
-                    "views": cache[ckey]["views"],
-                    "channel": cache[ckey]["channel"],
-                    "searched_at": now,
-                }
-                print(f"  → {cache[ckey]['channel']} ({cache[ckey]['views']} views)")
+                out[(anime.season_id, anime.title, song.kind, song.index)] = _entry_to_out(cache[ckey])
+                ch = cache[ckey]["channel"]
+                v = cache[ckey]["views"]
+                ach = cache[ckey]["anime_channel"]
+                if ach and ach != ch:
+                    print(f"  → {ch} ({v} views) | anime: {ach}")
+                elif ach:
+                    print(f"  → {ch} ({v} views) [= anime]")
+                else:
+                    print(f"  → {ch} ({v} views)")
             else:
-                cache[ckey] = {"url": "", "views": "", "channel": "", "searched_at": now}
+                cache[ckey] = {
+                    "url": "", "views": "", "channel": "",
+                    "anime_url": "", "anime_views": "", "anime_channel": "",
+                    "searched_at": now,
+                }
                 print(f"  → not found (will retry tomorrow)")
             time.sleep(THROTTLE_SEC)
 
