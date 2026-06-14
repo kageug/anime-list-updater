@@ -1,5 +1,10 @@
 # 更新履歴
 
+## 2026-06-14
+
+### 新規YouTube動画発見 (1 件)
+- [きみが死ぬまで恋をしたい] ED1 「エテルネル」sajou no hana → sajou no hana Official Channel https://www.youtube.com/watch?v=1qcDcvE9lWc
+
 ## 2026-06-11
 
 ### 新規アニメ (2 件)
