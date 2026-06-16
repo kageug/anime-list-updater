@@ -121,6 +121,34 @@ _ANIME_VERSION_TITLE_HINTS = (
     "opening movie", "ending movie",
 )
 
+# 配給チャンネルの公式 OP/ED 映像は「アニメ名 + ノンクレジットOP/オープニング映像」と
+# 命名されるが、曲名・歌手名はタイトルに入らないことが多い。この種別マーカーで
+# OP 曲には OP 映像だけ、ED 曲には ED 映像だけを採用可にする(=種別取り違え防止)。
+_KIND_VERSION_MARKERS = {
+    "OP": (
+        "ノンクレジットop", "ノンクレジットオープニング", "ノンテロップop",
+        "ノンテロップオープニング", "オープニング映像", "creditlessopening",
+        "noncreditopening", "openingmovie", "op映像",
+    ),
+    "ED": (
+        "ノンクレジットed", "ノンクレジットエンディング", "ノンテロップed",
+        "ノンテロップエンディング", "エンディング映像", "creditlessending",
+        "noncreditending", "endingmovie", "ed映像",
+    ),
+}
+# 主題歌/挿入歌等は OP/ED どちらの映像でもあり得るので両方を許容する。
+_KIND_VERSION_MARKERS_ANY = tuple(
+    m for ms in _KIND_VERSION_MARKERS.values() for m in ms
+)
+
+# これらが入っていたら OP/ED 本編映像ではない(=曲そのものではない)ので除外。
+# 本編PV / WEB予告 / 各話予告 / ダイジェスト / 特番 / CM / ティザー 等。
+_NON_SONG_MARKERS = (
+    "pv", "予告", "ダイジェスト", "ティザー", "teaser", "trailer",
+    "特番", "特報", "スポット", "本編映像", "wcm", "メイキング",
+    "リアクション", "切り抜き", "歌ってみた", "弾いてみた", "cover",
+)
+
 
 def _has_token(text_norm: str, tokens: list[str]) -> bool:
     return any(t in text_norm for t in tokens)
@@ -136,6 +164,76 @@ def _is_anime_channel(channel_norm: str) -> bool:
 
 def _title_has_anime_version_hint(video_title_norm: str) -> bool:
     return any(_normalize(h) in video_title_norm for h in _ANIME_VERSION_TITLE_HINTS)
+
+
+def _title_has_non_song_marker(title_norm: str) -> bool:
+    """本編PV / 予告 / CM / 歌ってみた 等、曲そのものではない動画のマーカー。"""
+    return any(_normalize(m) in title_norm for m in _NON_SONG_MARKERS)
+
+
+def _kind_markers(kind: str) -> tuple[str, ...]:
+    k = (kind or "").strip().upper()
+    if k.startswith("OP"):
+        return _KIND_VERSION_MARKERS["OP"]
+    if k.startswith("ED"):
+        return _KIND_VERSION_MARKERS["ED"]
+    # 主題歌 / 挿入歌 / 不明 は OP/ED どちらの映像でも可
+    return _KIND_VERSION_MARKERS_ANY
+
+
+def _other_kind_index(title_norm: str, kind: str) -> int | None:
+    """タイトルから OP/ED の番号を拾う(例: 'op2' → 2)。複数OP/EDの取り違え防止用。"""
+    k = (kind or "").strip().upper()
+    prefix = "op" if k.startswith("OP") else ("ed" if k.startswith("ED") else None)
+    if not prefix:
+        return None
+    m = re.search(prefix + r"(\d)", title_norm)
+    return int(m.group(1)) if m else None
+
+
+def is_creditless_kind_video(
+    channel_name: str,
+    video_title: str,
+    anime_title: str,
+    kind: str,
+    song_index: int | None = None,
+) -> bool:
+    """配給/アニメ系チャンネルの「アニメ名 + その種別(OP/ED)のノンクレジット映像」を
+    公式の OP/ED 本編動画として採用可と判定する。
+
+    曲名・歌手名がタイトルに無くても通すが、以下で誤採用を防ぐ:
+      - チャンネルが配給/アニメ系であること
+      - タイトルにアニメタイトルのトークンが含まれること
+      - タイトルに「本編PV/予告/CM/歌ってみた」等(=曲でない)が無いこと
+      - タイトルに OP 曲なら OP 映像マーカー、ED 曲なら ED 映像マーカーがあること
+      - 番号付き(OP2 等)で song_index と食い違う場合は拒否(複数OP/ED取り違え防止)
+    """
+    ch = _normalize(channel_name)
+    if not ch:
+        return False
+    if not (_is_distributor_channel(ch) or _is_anime_channel(ch)):
+        return False
+    anime_toks = _anime_tokens(anime_title)
+    if not anime_toks:
+        return False
+    title_norm = _normalize(video_title)
+    if not _has_token(title_norm, anime_toks):
+        return False
+    if _title_has_non_song_marker(title_norm):
+        return False
+    markers = [_normalize(m) for m in _kind_markers(kind)]
+    if not any(m in title_norm for m in markers):
+        return False
+    if song_index is not None:
+        try:
+            si = int(song_index)
+        except (TypeError, ValueError):
+            si = None
+        if si is not None:
+            found = _other_kind_index(title_norm, kind)
+            if found is not None and found != si:
+                return False
+    return True
 
 
 def is_anime_video(
@@ -307,11 +405,19 @@ def _select_best(
     anime_title: str,
     artist: str,
     song_title: str = "",
+    kind: str = "",
+    song_index: int | None = None,
 ) -> tuple[dict | None, dict | None]:
     """検索結果から
       - best_overall: 公式判定 (アーティスト/アニメどちらも可) で最高再生数 (= 統計対象, A列)
       - best_anime:   アニメ寄り動画で最高再生数 (= アニメ版動画, H列)
     を返す。best_overall が既にアニメ動画なら best_anime は同じものを指す。
+
+    kind を渡すと、配給チャンネルの「アニメ名 + その種別のノンクレジット映像」
+    (曲名/歌手名がタイトルに無い公式 OP/ED 本編動画) も採用候補に加える。これは
+    既存の採用集合への「追加」のみで、既存の採用を取り消さない (= 従来拾えていた
+    ものは不変、拾えていなかった高再生のノンクレ OP/ED だけが新たに拾える)。
+    本編PV / 予告 / 別種別(OP↔ED) / 別番号(OP2 等) は除外する。
     """
     best_overall: dict | None = None
     best_overall_views = -1
@@ -326,11 +432,15 @@ def _select_best(
         except (TypeError, ValueError):
             views = 0
 
-        if is_official_video(ch, title, anime_title, artist):
+        creditless_kind = bool(kind) and is_creditless_kind_video(
+            ch, title, anime_title, kind, song_index
+        )
+
+        if is_official_video(ch, title, anime_title, artist) or creditless_kind:
             if views > best_overall_views:
                 best_overall_views = views
                 best_overall = r
-        if is_anime_video(ch, title, anime_title, artist, song_title):
+        if is_anime_video(ch, title, anime_title, artist, song_title) or creditless_kind:
             if views > best_anime_views:
                 best_anime_views = views
                 best_anime = r
@@ -437,7 +547,8 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
                 for sec_q in _build_secondary_queries(song.title, song.artist, anime.title, song.kind):
                     print(f"[search {done}/{total} retry-anime] {anime.title} {song.kind}{song.index}: {sec_q[:80]}")
                     sec_results = _run_ytdlp(sec_q)
-                    _, sec_anime = _select_best(sec_results, anime.title, song.artist, song.title)
+                    _, sec_anime = _select_best(
+                        sec_results, anime.title, song.artist, song.title, song.kind, song.index)
                     if sec_anime is not None:
                         primary_anime = sec_anime
                         break
@@ -458,7 +569,8 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
             query = _build_query(song.title, song.artist, anime.title)
             print(f"[search {done}/{total}] {anime.title} {song.kind}{song.index}: {query[:80]}")
             results = _run_ytdlp(query)
-            best_overall, best_anime = _select_best(results, anime.title, song.artist)
+            best_overall, best_anime = _select_best(
+                results, anime.title, song.artist, song.title, song.kind, song.index)
 
             # プライマリでアニメ版が見つからなかった場合、ノンクレジット系
             # キーワードでセカンダリ検索を最大 SECONDARY_QUERY_LIMIT 回試す
@@ -467,7 +579,8 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
                     time.sleep(THROTTLE_SEC)
                     print(f"  [retry anime] {sec_q[:80]}")
                     sec_results = _run_ytdlp(sec_q)
-                    _, sec_anime = _select_best(sec_results, anime.title, song.artist, song.title)
+                    _, sec_anime = _select_best(
+                        sec_results, anime.title, song.artist, song.title, song.kind, song.index)
                     if sec_anime is not None:
                         best_anime = sec_anime
                         break
