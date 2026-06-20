@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import re
 import subprocess
 import time
@@ -22,6 +23,25 @@ SEARCH_RESULTS = 8       # ytsearch で取得する候補数
 THROTTLE_SEC = 1.5       # リクエスト間隔
 RETRY_MAX = 3
 TIMEOUT_SEC = 60
+
+# 検索フェーズ全体の時間予算。これを超えたら以降は検索せずキャッシュ済みだけ使い、
+# 正常終了させる(=GitHub Actions の 60分上限に当たって job ごと打ち切られ、
+# スクレイプ済みのアニメ一覧すら commit されない事故を防ぐ安全網)。
+SEARCH_BUDGET_SEC = int(os.environ.get("YT_SEARCH_BUDGET_SEC", "1800"))  # 既定30分
+
+# YouTube が実行環境(データセンターIP)を「ボット」と判定した時の文言。
+# 検出したらリトライしても必ず同じく弾かれるので、待たずに即あきらめる。
+_BOT_BLOCK_MARKERS = (
+    "not a bot",
+    "sign in to confirm",
+    "confirm you're not a bot",
+    "confirm you’re not a bot",  # 全角アポストロフィ版
+)
+
+
+def _is_bot_block(msg: str) -> bool:
+    m = (msg or "").lower()
+    return any(b in m for b in _BOT_BLOCK_MARKERS)
 
 # 公式判定で除外するアーティスト名内の連結語
 ARTIST_FILLER = {"feat", "feat.", "ft", "ft.", "with", "and", "&", "from", "vs", "x"}
@@ -395,6 +415,11 @@ def _run_ytdlp(query: str) -> list[dict]:
             return results
         except (subprocess.TimeoutExpired, RuntimeError) as e:
             last_err = e
+            # ボット判定はリトライしても同じく弾かれる → 待たずに即あきらめる
+            # (1回あたり 2+4+8 秒の待機を積み重ねて60分上限に達するのを防ぐ)。
+            if _is_bot_block(str(e)):
+                print("[warn] yt-dlp blocked by YouTube bot-check (no retry)")
+                return []
             time.sleep(2 ** attempt)
     print(f"[warn] yt-dlp failed after {RETRY_MAX} attempts: {last_err}")
     return []
@@ -518,6 +543,8 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
 
     total = sum(len(a.songs) for a in animes if not a.is_rerun)
     done = 0
+    deadline = time.monotonic() + SEARCH_BUDGET_SEC
+    budget_hit = False
     for anime in animes:
         if anime.is_rerun:
             # 再放送は曲が同じことが多く YouTube 側も既存。スキップしてキャッシュ節約
@@ -526,6 +553,15 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
             done += 1
             ckey = _cache_key(anime.season_id, anime.title, song.kind, song.index, song.title, song.artist)
             entry = cache.get(ckey)
+            # 時間予算を使い切ったら以降は検索しない。既存キャッシュにヒット済みの
+            # URL があればそれだけ流用し(=既存URLを消さない)、未処理分は翌日リトライ。
+            if time.monotonic() > deadline:
+                if not budget_hit:
+                    print(f"[abort] search budget {SEARCH_BUDGET_SEC}s exceeded; cache-only for the rest")
+                    budget_hit = True
+                if entry and entry.get("url"):
+                    out[(anime.season_id, anime.title, song.kind, song.index)] = _entry_to_out(entry)
+                continue
             # 旧キャッシュ（anime_url キー無し）は再検索対象とする
             has_anime_field = entry is not None and "anime_url" in entry
             secondary_tried = entry is not None and entry.get("anime_secondary_tried")
