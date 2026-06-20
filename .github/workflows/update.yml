@@ -67,3 +67,43 @@ jobs:
             git commit -m "auto: anime list update ${DATE}"
             git push
           fi
+
+      # ── 未作成アニメの残リスト更新（ページ生成はしない・API不使用） ──
+      # 方針: 新作ページは「ユーザーが /new-anime-pages スキルを呼んだ時だけ」私(Claude)が手作りする。
+      # 毎日のここでは「新作だが未だページが無いアニメ」の残リストだけを最新化してコミットする。
+      # 必要なのは web repo の生成済み台帳(auto_anime_registry.json)と pending.py の2ファイルのみ。
+      # 巨大DBを含む web repo を丸ごとcloneせず、GitHub contents API で2ファイルだけ取得して計算する。
+      - name: Refresh pending (un-generated) anime list
+        if: ${{ always() }}
+        env:
+          GH_PAT_WEB: ${{ secrets.GH_PAT_WEB }}
+          PYTHONUTF8: '1'
+        run: |
+          set -e
+          mkdir -p /tmp/webroot/data /tmp/tools
+          REPO="kageug/flask-anisong-ranking-app"
+          # 台帳と pending.py を contents API(raw) で取得。失敗しても続行(台帳空=全件を残として扱う)。
+          fetch() {  # $1=repo path  $2=dest
+            curl -fsSL -H "Accept: application/vnd.github.raw" \
+              ${GH_PAT_WEB:+-H "Authorization: Bearer ${GH_PAT_WEB}"} \
+              "https://api.github.com/repos/${REPO}/contents/$1" -o "$2"
+          }
+          fetch "data/auto_anime_registry.json" /tmp/webroot/data/auto_anime_registry.json \
+            || echo '{}' > /tmp/webroot/data/auto_anime_registry.json
+          if ! fetch "tools/auto_anime/pending.py" /tmp/tools/pending.py; then
+            echo "pending.py 取得失敗 → スキップ"; exit 0
+          fi
+          python /tmp/tools/pending.py \
+            --anime-csv data/anime_list.csv \
+            --web-root /tmp/webroot \
+            --out data/pending_new_anime.json --print
+          git add data/pending_new_anime.json
+          if git diff --cached --quiet; then
+            echo "残リストに変化なし"
+          else
+            git config user.name  "anime-list-bot"
+            git config user.email "anime-list-bot@users.noreply.github.com"
+            git commit -m "auto: refresh pending new-anime list $(date -u +%Y-%m-%d)"
+            git push
+            echo "残リストを更新しました"
+          fi
