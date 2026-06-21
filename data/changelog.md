@@ -1,5 +1,59 @@
 # 更新履歴
 
+## 2026-06-21
+
+### 新規YouTube動画発見 (50 件)
+- [アズールレーン びそくぜんしんっ！にっ！！] 主題歌1 「しゃいすまっ！」榊原ゆい → アズールレーン https://www.youtube.com/watch?v=KJkoRG38MXo
+- [うしろの正面カムイさん] OP1 「成仏Come true」ORCALAND → デレギュラ【新アニメレーベル】 https://www.youtube.com/watch?v=fI6BUhMXqKQ
+- [うしろの正面カムイさん] ED1 「SAY-BYE!!」KOTOKO → デレギュラ【新アニメレーベル】 https://www.youtube.com/watch?v=mcFFaGYC9JU
+- [うちの弟どもがすみません] OP1 「アイコトバ」DISH// → アニプレックス チャンネル https://www.youtube.com/watch?v=8So8zgJAYMI
+- [うちの弟どもがすみません] ED1 「Clover」汐れいら → アニプレックス チャンネル https://www.youtube.com/watch?v=6fUdDUk-FZQ
+- [骸骨騎士様、只今異世界へお出掛け中Ⅱ] ED1 「奇跡は起きない」DIALOGUE+ → DIALOGUE＋Official Channel https://www.youtube.com/watch?v=YCCI6qrDhow
+- [株式会社マジルミエ 第2期] OP1 「ラテマジック」syudou×八木勇征(FANTASTICS) → TVアニメ『株式会社マジルミエ』公式チャンネル https://www.youtube.com/watch?v=46w2OsPayB4
+- [株式会社マジルミエ 第2期] ED1 「BooooM!!!」宝鐘マリン → Marine Ch. 宝鐘マリン https://www.youtube.com/watch?v=2_opjVlYhi4
+- [ぐらんぶる Season 3] ED1 「裸のマーメード」豆柴の大群 → NBCUniversal Anime/Music https://www.youtube.com/watch?v=_gLM5qjn5Hk
+- [グロウアップショウ ～ひまわりのサーカス団～] OP1 「ユラリユレル」NOMELON NOLEMON → アニプレックス チャンネル https://www.youtube.com/watch?v=IYW8Mfdzwfo
+- [グロウアップショウ ～ひまわりのサーカス団～] ED1 「DAYS!」Aooo → アニプレックス チャンネル https://www.youtube.com/watch?v=_HJ9d-6oNt4
+- [攻殻機動隊 THE GHOST IN THE SHELL] ED1 「Blue」MILLENNIUM PARADE feat. Saya Gray, Daniel Caesar → MILLENNIUM PARADE Official YouTube Channel https://www.youtube.com/watch?v=fuXZMQAD9vU
+- [コードギアス 奪還のロゼ TV放送] OP1 「Running In My Head」MIYAVI → コードギアスチャンネル CODEGEASS Channel https://www.youtube.com/watch?v=0ym3Zj4kJyo
+- [コードギアス 奪還のロゼ TV放送] ED1 「ロゼ (Prod.TeddyLoid)」満島ひかり → コードギアスチャンネル CODEGEASS Channel https://www.youtube.com/watch?v=0ym3Zj4kJyo
+- [これ描いて死ね] OP1 「遺書」キタニタツヤ → キタニタツヤ / Tatsuya Kitani https://www.youtube.com/watch?v=MQhd0ne_uYo
+- [これ描いて死ね] ED1 「コニファー」リーガルリリー → VAP Official https://www.youtube.com/watch?v=jI61NtGuxV4
+- [才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様(生活能力皆無)を陰ながらお世話することになりました] ED1 「完璧じゃないわたし」前島亜美 → 前島亜美 https://www.youtube.com/watch?v=BnQf97HkufE
+- [サイボーグ009 ネメシス] OP1 「誰がために」杏子 → 杏子 https://www.youtube.com/watch?v=wc1Npu2_IFs
+- [さよならララ] OP1 「さよならララ」いきものがかり → KADOKAWAanime https://www.youtube.com/watch?v=c4-6PwVRRj8
+- [スーパーの裏でヤニ吸うふたり] OP1 「イチジク煙」ずっと真夜中でいいのに。 → ずっと真夜中でいいのに。 ZUTOMAYO https://www.youtube.com/watch?v=ut889MZ9yNo
+- [スーパーの裏でヤニ吸うふたり] ED1 「Fiction」imase → Asmik Ace https://www.youtube.com/watch?v=9eo3M7-wAtU
+- [正反対な君と僕 第2期] OP1 「メガネを外して」乃紫 → 乃紫 https://www.youtube.com/watch?v=XOKQluw_YLU
+- [正反対な君と僕 第2期] OP2 「猫じゃらし」7co → SHOCHIKU anime Channel https://www.youtube.com/watch?v=JIn6WqZ_Fs4
+- [正反対な君と僕 第2期] ED1 「ピュア feat. 橋本絵莉子」PAS TASTA → SHOCHIKU anime Channel https://www.youtube.com/watch?v=A6aH9jPW8ZY
+- [手札が多めのビクトリア] ED1 「縁のつき」KI_EN → KADOKAWAanime https://www.youtube.com/watch?v=-HNOXWE2wVU
+- [天は赤い河のほとり] OP1 「暁の空」七海ひろき → VAP Official https://www.youtube.com/watch?v=qpFcQ1Bek08
+- [二十世紀電氣目録-ユーレカ・エヴリカ-] ED1 「Soarin’」Ginger Root → Lantis Channel https://www.youtube.com/watch?v=5rQWh9aIflw
+- [刃牙道 第2クール] OP1 「フルボコ」WANIMA → TMSアニメ公式チャンネル https://www.youtube.com/watch?v=3KIPGQJh4vI
+- [刃牙道 第2クール] OP2 「六ノ輪」Chevon → TMSアニメ公式チャンネル https://www.youtube.com/watch?v=x0ygvWo5e3k
+- [刃牙道 第2クール] ED1 「Mountain Top」Novel Core → TMSアニメ公式チャンネル https://www.youtube.com/watch?v=KKOr3xF2iOM
+- [刃牙道 第2クール] ED2 「KATANA」三代目 J SOUL BROTHERS → TMSアニメ公式チャンネル https://www.youtube.com/watch?v=1LBv6-z-0ok
+- [ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～] OP1 「Q.E.D.」小倉唯 → Yui Ogura YouTube OFFICIAL CHANNEL https://www.youtube.com/watch?v=LFS_qg2JrPI
+- [ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～] ED1 「グッバイ・ララバイ」大西亜玖璃 → 大西亜玖璃 - Aguri Onishi https://www.youtube.com/watch?v=MzjYjMBpQ6g
+- [ふつつかな悪女ではございますが～雛宮蝶鼠とりかえ伝～] OP1 「Sunny」milet → TOHO animation https://www.youtube.com/watch?v=nR_vqhD2rGM
+- [魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance] OP1 「CRIMSON BULLET」水樹奈々 → 魔法少女リリカルなのは YouTube OFFICIAL CHANNEL https://www.youtube.com/watch?v=TzvGIjaMbYE
+- [魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance] ED1 「Ephemeral」青木陽菜 → 魔法少女リリカルなのは YouTube OFFICIAL CHANNEL https://www.youtube.com/watch?v=TzvGIjaMbYE
+- [無職転生Ⅲ ～異世界行ったら本気だす～] OP1 「決意の唄」大原ゆい子 → 大原ゆい子Official YouTube https://www.youtube.com/watch?v=hZ6TnKvB2rc
+- [無職転生Ⅲ ～異世界行ったら本気だす～] ED1 「祈り、終われば」中島美嘉 → TOHO animation https://www.youtube.com/watch?v=ODxfIvSgWuo
+- [メビウス・ダスト] OP1 「メビウス」家入レオ → 家入レオ https://www.youtube.com/watch?v=vJzWWkigrU8
+- [ヤニねこ] OP1 「なんもねえ」忘れらんねえよ → TVアニメ『ヤニねこ』公式【ハメちゃんねる】 https://www.youtube.com/watch?v=ydK2WdTAOgU
+- [ヤニねこ] ED1 「煙とブルー」ネクライトーキー → TVアニメ『ヤニねこ』公式【ハメちゃんねる】 https://www.youtube.com/watch?v=ydK2WdTAOgU
+- [幼女戦記Ⅱ] OP1 「Why? RED induction」MYTH & ROID → MYTH & ROID Official Channel https://www.youtube.com/watch?v=RMaOR0Pyfts
+- [鎧真伝サムライトルーパー 第2クール] OP1 「YOAKE」blank paper → TVアニメ『鎧真伝サムライトルーパー』公式 https://www.youtube.com/watch?v=kHUPdA8H6qk
+- [鎧真伝サムライトルーパー 第2クール] OP2 「BAD遺伝子」Dannie May → TVアニメ『鎧真伝サムライトルーパー』公式 https://www.youtube.com/watch?v=OKEoQo3cGVg
+- [鎧真伝サムライトルーパー 第2クール] ED1 「POWER」ONE OR EIGHT → ONE OR EIGHT https://www.youtube.com/watch?v=aw45Q_mr0_M
+- [鎧真伝サムライトルーパー 第2クール] ED2 「ばけもん」カラノア → TVアニメ『鎧真伝サムライトルーパー』公式 https://www.youtube.com/watch?v=OKEoQo3cGVg
+- [LV999の村人] OP1 「Not a Hero」藍月なくる&棗いつき → Itsuki Natsume / 棗いつき https://www.youtube.com/watch?v=9-RVzXLF53U
+- [ワールド イズ ダンシング] OP1 「終宵」マカロニえんぴつ → SHOCHIKU anime Channel https://www.youtube.com/watch?v=Zu45LJG7Chs
+- [ONE PIECE HEROINES] 主題歌1 「ONE PIECE（モノクロ版）」電子書籍（コミック） → ONE PIECE Official YouTube Channel https://www.youtube.com/watch?v=6hRjsvdINgg
+- [魔法少女育成計画restart] OP1 「No tears here」茅原実里 → TVアニメ「魔法少女育成計画restart」公式チャンネル https://www.youtube.com/watch?v=-PX7FqZ55tE
+
 ## 2026-06-20
 
 ### 新規アニメ (6 件)
