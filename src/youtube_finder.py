@@ -551,6 +551,10 @@ def enrich_with_youtube(animes: list[Anime], data_dir: Path) -> dict[tuple, dict
             continue
         for song in anime.songs:
             done += 1
+            # 1曲ごとに毎回キャッシュを保存する。直前までに確定した結果を必ずディスクに残し、
+            # 途中でクラッシュ/中断しても完了済みは失われず、次回実行はそれを再検索しない
+            # (=無駄に同じ処理を繰り返さない)。
+            _save_cache(cache_path, cache)
             ckey = _cache_key(anime.season_id, anime.title, song.kind, song.index, song.title, song.artist)
             entry = cache.get(ckey)
             # 時間予算を使い切ったら以降は検索しない。既存キャッシュにヒット済みの
