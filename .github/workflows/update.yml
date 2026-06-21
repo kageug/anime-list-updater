@@ -1,9 +1,12 @@
 name: Update anime list
 
 on:
-  schedule:
-    # 毎日 17:00 UTC = 翌 02:00 JST に実行 (anison-rankin daily.yml の 03:00 JST より前)
-    - cron: '0 17 * * *'
+  # 2026-06-21: YouTube URL 探索はクラウドIP(データセンター)が YouTube に「ボット」判定され
+  # 全滅するため、ユーザーPC(住宅IP)の定時タスク(毎朝9時, run_url_finder.ps1)へ移行した。
+  # クラウドの自動実行(毎日 cron)は停止し、PC との重複・無駄な実行を避ける。
+  # 手動実行(workflow_dispatch)はフォールバックとして残す。
+  # schedule:
+  #   - cron: '0 17 * * *'   # 旧: 毎日 17:00 UTC = 翌 02:00 JST(PC移行により無効化)
   workflow_dispatch:
     inputs:
       seasons:
