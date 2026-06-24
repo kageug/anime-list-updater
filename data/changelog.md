@@ -1,5 +1,18 @@
 # 更新履歴
 
+## 2026-06-24
+
+### 新規アニメ (3 件)
+- [2026秋アニメ] 魔法の姉妹ルルットリリィ 第2クール
+- [2026夏アニメ] あはれ！名作くん（新シリーズ）
+- [2026夏アニメ] 角醒ハンター オメガホーン
+
+### 新規YouTube動画発見 (4 件)
+- [あはれ！名作くん（新シリーズ）] 主題歌1 「ナンセンスナンセンス」フレデリック → あはれ!名作くん https://www.youtube.com/watch?v=va7gvBo4eCM
+- [バンドリ！ ゆめ∞みた] OP1 「これはぼくたちの生存のあらすじ」夢限大みゅーたいぷ → BanG Dream Channel☆ https://www.youtube.com/watch?v=Ech7Tj8ga0Y
+- [魔法の姉妹ルルットリリィ 第2クール] OP1 「Bubee」ILLIT → Bandai Namco Filmworks Channel https://www.youtube.com/watch?v=sNIntrw0m-g
+- [魔法の姉妹ルルットリリィ 第2クール] ED1 「Calling」ルルットリリィ（こんぺとリリィ（CV.橘めい）、ましゅールル（CV.小鹿なお）） → Bandai Namco Filmworks Channel https://www.youtube.com/watch?v=7oNuxIfJqiI
+
 ## 2026-06-23
 
 ### 新規アニメ (2 件)
