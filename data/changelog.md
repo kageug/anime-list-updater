@@ -1,5 +1,13 @@
 # 更新履歴
 
+## 2026-06-25
+
+### 新規YouTube動画発見 (4 件)
+- [盗掘王] OP1 「SHOW DOWN」QWER → KADOKAWAanime https://www.youtube.com/watch?v=PVN8Pj_Ykyo
+- [盗掘王] ED1 「To Be Continued」QWER → KADOKAWAanime https://www.youtube.com/watch?v=PVN8Pj_Ykyo
+- [花ざかりの君たちへ 第2期] OP1 「FLASHBULB」Omoinotake → Omoinotake https://www.youtube.com/watch?v=s1bZEnGAX8I
+- [花ざかりの君たちへ 第2期] ED1 「花束」Omoinotake → Omoinotake https://www.youtube.com/watch?v=s1bZEnGAX8I
+
 ## 2026-06-24
 
 ### 新規アニメ (3 件)
