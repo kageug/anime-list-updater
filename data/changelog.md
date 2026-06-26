@@ -1,5 +1,10 @@
 # 更新履歴
 
+## 2026-06-26
+
+### 新規YouTube動画発見 (1 件)
+- [猫と竜] OP1 「猫日」suis from ヨルシカ → ヨルシカ / n-buna Official https://www.youtube.com/watch?v=5Of2HNJa_gs
+
 ## 2026-06-25
 
 ### 新規YouTube動画発見 (4 件)
