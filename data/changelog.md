@@ -1,5 +1,12 @@
 # 更新履歴
 
+## 2026-06-27
+
+### 新規YouTube動画発見 (3 件)
+- [転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件] ED1 「Tilt」harmoe → harmoeオフィシャルYouTubeチャンネル https://www.youtube.com/watch?v=d4TzLZZaeac
+- [BLACK TORCH] OP1 「FREEZE ME UP」SiM → ShoProアニメチャンネル https://www.youtube.com/watch?v=2FjRzlo5zHI
+- [令和のダラさん] ED1 「ひなたぼっこ」REIRIE → KADOKAWAanime https://www.youtube.com/watch?v=HjtjOaJz-_U
+
 ## 2026-06-26
 
 ### 新規YouTube動画発見 (1 件)
