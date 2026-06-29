@@ -1,5 +1,11 @@
 # 更新履歴
 
+## 2026-06-29
+
+### 新規YouTube動画発見 (2 件)
+- [片田舎のおっさん、剣聖になるII] OP1 「クレナイノハ」ユニコーン → NBCUniversal Anime/Music https://www.youtube.com/watch?v=7BDs9fUOFu8
+- [片田舎のおっさん、剣聖になるII] ED1 「未完成」BLUE ENCOUNT → NBCUniversal Anime/Music https://www.youtube.com/watch?v=1Q1Kgixu70g
+
 ## 2026-06-27
 
 ### 新規YouTube動画発見 (3 件)
