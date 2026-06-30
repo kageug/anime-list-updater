@@ -1,5 +1,18 @@
 # 更新履歴
 
+## 2026-06-30
+
+### 新規アニメ (2 件)
+- [2026秋アニメ] 夜桜さんちの大作戦 第2期 第2クール
+- [2026秋アニメ] ダイヤのA actⅡ -Second Season- 第2クール
+
+### 新規YouTube動画発見 (5 件)
+- [手札が多めのビクトリア] OP1 「一進」ハク。 → KADOKAWAanime https://www.youtube.com/watch?v=dm8QPSlRYdI
+- [BLEACH 千年血戦篇-禍進譚-] ED1 「螺旋」9Lana → 『BLEACH』アニメ公式チャンネル https://www.youtube.com/watch?v=7MWGxsLYuN0
+- [無自覚聖女は今日も無意識に力を垂れ流す] ED1 「アンノウンミー」ウタヒメドリーム オールスターズ【夢咲いぶき（CV:山﨑玲奈） 桜木舞華（CV:鈴木杏奈） 真白清美（CV:其原有沙） HiREN（CV:花耶） 水月ひかり（CV:礒部花凜） 高木凛（CV:鷲見友美ジェナ） 萩原ひまわり（CV:倉知玲鳳） SAKURAKO（CV:竹内夢）】 → ウタヒメドリーム公式 https://www.youtube.com/watch?v=hdN_UO805h0
+- [夜桜さんちの大作戦 第2期 第2クール] OP1 「What's "KAZOKU"」櫻坂46 → 櫻坂46 OFFICIAL YouTube CHANNEL https://www.youtube.com/watch?v=WMVMTsJZzy8
+- [夜桜さんちの大作戦 第2期 第2クール] ED1 「Shalala」ピラフ星人 → NBCUniversal Anime/Music https://www.youtube.com/watch?v=X6fNe1uPs9E
+
 ## 2026-06-29
 
 ### 新規YouTube動画発見 (2 件)
