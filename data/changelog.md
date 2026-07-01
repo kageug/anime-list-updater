@@ -1,5 +1,16 @@
 # 更新履歴
 
+## 2026-07-01
+
+### 新規アニメ (2 件)
+- [2026夏アニメ] BEYBLADE X 真・未来編
+- [2026秋アニメ] 塩対応の佐藤さんが俺にだけ甘い
+
+### 新規YouTube動画発見 (3 件)
+- [うちの弟どもがすみません] ED1 「Clover」汐れいら → アニプレックス チャンネル https://www.youtube.com/watch?v=6fUdDUk-FZQ
+- [ふつつかな悪女ではございますが～雛宮蝶鼠とりかえ伝～] ED1 「ホウキボシ」ロクデナシ → TOHO animation https://www.youtube.com/watch?v=KZhL6CYGYU0
+- [無自覚聖女は今日も無意識に力を垂れ流す] OP1 「Windmaker」花耶 → Kaya Official YouTube Channel  https://www.youtube.com/watch?v=sg1p3sEU88Q
+
 ## 2026-06-30
 
 ### 新規アニメ (2 件)

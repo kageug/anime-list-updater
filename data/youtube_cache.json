@@ -1100,7 +1100,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:26",
+    "searched_at": "2026-07-01T09:06:43",
     "url": "",
     "views": ""
   },
@@ -1131,7 +1131,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:33",
+    "searched_at": "2026-07-01T09:06:50",
     "url": "",
     "views": ""
   },
@@ -1140,7 +1140,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:40",
+    "searched_at": "2026-07-01T09:08:27",
     "url": "",
     "views": ""
   },
@@ -1171,7 +1171,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:01",
+    "searched_at": "2026-07-01T09:02:03",
     "url": "",
     "views": ""
   },
@@ -1180,7 +1180,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:56",
+    "searched_at": "2026-07-01T09:01:59",
     "url": "",
     "views": ""
   },
@@ -1200,7 +1200,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:23",
+    "searched_at": "2026-07-01T09:00:23",
     "url": "",
     "views": ""
   },
@@ -1209,7 +1209,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:18",
+    "searched_at": "2026-07-01T09:00:18",
     "url": "",
     "views": ""
   },
@@ -1236,13 +1236,15 @@
     "views": 24042
   },
   "5806|うちの弟どもがすみません|ED1|Clover|汐れいら": {
-    "anime_channel": "",
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-06-30T09:00:37",
-    "url": "",
-    "views": ""
+    "anime_channel": "アニプレックス チャンネル",
+    "anime_secondary_tried": true,
+    "anime_url": "https://www.youtube.com/watch?v=6fUdDUk-FZQ",
+    "anime_views": 3565,
+    "channel": "アニプレックス チャンネル",
+    "searched_at": "2026-07-01T09:00:44",
+    "title": "【コメント動画】エンディング主題歌：汐れいら｜TVアニメ『うちの弟どもがすみません』2026年7月3日（金）より放送",
+    "url": "https://www.youtube.com/watch?v=6fUdDUk-FZQ",
+    "views": 3565
   },
   "5806|うちの弟どもがすみません|OP1|アイコトバ|DISH//": {
     "anime_channel": "アニプレックス チャンネル",
@@ -1271,7 +1273,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:48",
+    "searched_at": "2026-07-01T09:01:51",
     "url": "",
     "views": ""
   },
@@ -1291,7 +1293,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:08",
+    "searched_at": "2026-07-01T09:02:15",
     "url": "",
     "views": ""
   },
@@ -1300,7 +1302,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:36",
+    "searched_at": "2026-07-01T09:02:44",
     "url": "",
     "views": ""
   },
@@ -1309,7 +1311,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:27",
+    "searched_at": "2026-07-01T09:02:34",
     "url": "",
     "views": ""
   },
@@ -1340,7 +1342,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:08",
+    "searched_at": "2026-07-01T09:03:14",
     "url": "",
     "views": ""
   },
@@ -1354,6 +1356,17 @@
     "title": "オリジナルTVアニメ『さよならララ』メインPV第1弾 | 2026年7月放送",
     "url": "https://www.youtube.com/watch?v=c4-6PwVRRj8",
     "views": 310640
+  },
+  "5806|ふつつかな悪女ではございますが～雛宮蝶鼠とりかえ伝～|ED1|ホウキボシ|ロクデナシ": {
+    "anime_channel": "",
+    "anime_secondary_tried": true,
+    "anime_url": "",
+    "anime_views": "",
+    "channel": "TOHO animation",
+    "searched_at": "2026-07-01T09:06:34",
+    "title": "TVアニメ『ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～』放送直前PV／エンディングテーマ：ロクデナシ「ホウキボシ」／7月12日(日)23:45よりテレ東系列にて放送開始",
+    "url": "https://www.youtube.com/watch?v=KZhL6CYGYU0",
+    "views": 131956
   },
   "5806|ふつつかな悪女ではございますが～雛宮蝶鼠とりかえ伝～|OP1|Sunny|milet": {
     "anime_channel": "",
@@ -1382,7 +1395,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:12",
+    "searched_at": "2026-07-01T09:00:11",
     "url": "",
     "views": ""
   },
@@ -1391,7 +1404,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:47",
+    "searched_at": "2026-07-01T09:00:53",
     "url": "",
     "views": ""
   },
@@ -1400,7 +1413,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:21",
+    "searched_at": "2026-07-01T09:02:27",
     "url": "",
     "views": ""
   },
@@ -1409,7 +1422,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:15",
+    "searched_at": "2026-07-01T09:02:22",
     "url": "",
     "views": ""
   },
@@ -1462,7 +1475,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:58",
+    "searched_at": "2026-07-01T09:03:04",
     "url": "",
     "views": ""
   },
@@ -1488,7 +1501,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:12",
+    "searched_at": "2026-07-01T09:03:19",
     "url": "",
     "views": ""
   },
@@ -1519,7 +1532,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:05:37",
+    "searched_at": "2026-07-01T09:05:44",
     "url": "",
     "views": ""
   },
@@ -1539,7 +1552,16 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:05:56",
+    "searched_at": "2026-07-01T09:06:06",
+    "url": "",
+    "views": ""
+  },
+  "5806|パーフェクトアディクション|ED1|ADDICTED|久慈明仁（CV：阿座上洋平） 高槻冴（CV：斉藤壮馬）": {
+    "anime_channel": "",
+    "anime_url": "",
+    "anime_views": "",
+    "channel": "",
+    "searched_at": "2026-07-01T09:06:03",
     "url": "",
     "views": ""
   },
@@ -1548,7 +1570,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:16",
+    "searched_at": "2026-07-01T09:06:25",
     "url": "",
     "views": ""
   },
@@ -1557,7 +1579,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:10",
+    "searched_at": "2026-07-01T09:06:19",
     "url": "",
     "views": ""
   },
@@ -1588,7 +1610,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:29",
+    "searched_at": "2026-07-01T09:06:46",
     "url": "",
     "views": ""
   },
@@ -1597,7 +1619,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:05",
+    "searched_at": "2026-07-01T09:07:04",
     "url": "",
     "views": ""
   },
@@ -1606,7 +1628,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:02",
+    "searched_at": "2026-07-01T09:07:02",
     "url": "",
     "views": ""
   },
@@ -1615,7 +1637,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:58",
+    "searched_at": "2026-07-01T09:07:46",
     "url": "",
     "views": ""
   },
@@ -1668,7 +1690,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:47",
+    "searched_at": "2026-07-01T09:03:52",
     "url": "",
     "views": ""
   },
@@ -1677,7 +1699,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:41",
+    "searched_at": "2026-07-01T09:03:47",
     "url": "",
     "views": ""
   },
@@ -1686,7 +1708,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:09",
+    "searched_at": "2026-07-01T09:01:13",
     "url": "",
     "views": ""
   },
@@ -1695,7 +1717,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:03",
+    "searched_at": "2026-07-01T09:01:08",
     "url": "",
     "views": ""
   },
@@ -1704,7 +1726,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:57",
+    "searched_at": "2026-07-01T09:01:03",
     "url": "",
     "views": ""
   },
@@ -1713,7 +1735,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:53",
+    "searched_at": "2026-07-01T09:00:58",
     "url": "",
     "views": ""
   },
@@ -1733,7 +1755,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:05:46",
+    "searched_at": "2026-07-01T09:05:52",
     "url": "",
     "views": ""
   },
@@ -1753,7 +1775,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:34",
+    "searched_at": "2026-07-01T09:08:20",
     "url": "",
     "views": ""
   },
@@ -1830,7 +1852,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:14",
+    "searched_at": "2026-07-01T09:07:12",
     "url": "",
     "views": ""
   },
@@ -1839,7 +1861,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:17",
+    "searched_at": "2026-07-01T09:07:14",
     "url": "",
     "views": ""
   },
@@ -1848,7 +1870,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:08",
+    "searched_at": "2026-07-01T09:07:07",
     "url": "",
     "views": ""
   },
@@ -1857,7 +1879,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:12",
+    "searched_at": "2026-07-01T09:01:15",
     "url": "",
     "views": ""
   },
@@ -1866,7 +1888,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:51",
+    "searched_at": "2026-07-01T09:01:54",
     "url": "",
     "views": ""
   },
@@ -1875,7 +1897,16 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:03",
+    "searched_at": "2026-07-01T09:04:08",
+    "url": "",
+    "views": ""
+  },
+  "5806|天は赤い河のほとり|ED1|Reunion|清水美依紗": {
+    "anime_channel": "",
+    "anime_url": "",
+    "anime_views": "",
+    "channel": "",
+    "searched_at": "2026-07-01T09:04:42",
     "url": "",
     "views": ""
   },
@@ -1890,12 +1921,21 @@
     "url": "https://www.youtube.com/watch?v=qpFcQ1Bek08",
     "views": 152288
   },
+  "5806|天幕のジャードゥーガル|ED1|星|女王蜂": {
+    "anime_channel": "",
+    "anime_url": "",
+    "anime_views": "",
+    "channel": "",
+    "searched_at": "2026-07-01T09:04:58",
+    "url": "",
+    "views": ""
+  },
   "5806|天幕のジャードゥーガル|OP1|Stella|SEKAI NO OWARI": {
     "anime_channel": "",
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:51",
+    "searched_at": "2026-07-01T09:04:51",
     "url": "",
     "views": ""
   },
@@ -1904,7 +1944,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:00",
+    "searched_at": "2026-07-01T09:04:05",
     "url": "",
     "views": ""
   },
@@ -1913,7 +1953,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:54",
+    "searched_at": "2026-07-01T09:04:00",
     "url": "",
     "views": ""
   },
@@ -1922,7 +1962,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:35",
+    "searched_at": "2026-07-01T09:00:35",
     "url": "",
     "views": ""
   },
@@ -1931,7 +1971,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:00:29",
+    "searched_at": "2026-07-01T09:00:29",
     "url": "",
     "views": ""
   },
@@ -1940,7 +1980,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:10",
+    "searched_at": "2026-07-01T09:07:57",
     "url": "",
     "views": ""
   },
@@ -1993,7 +2033,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:52",
+    "searched_at": "2026-07-01T09:02:58",
     "url": "",
     "views": ""
   },
@@ -2002,7 +2042,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:27",
+    "searched_at": "2026-07-01T09:03:33",
     "url": "",
     "views": ""
   },
@@ -2011,7 +2051,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:20",
+    "searched_at": "2026-07-01T09:03:26",
     "url": "",
     "views": ""
   },
@@ -2031,7 +2071,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:59",
+    "searched_at": "2026-07-01T09:06:59",
     "url": "",
     "views": ""
   },
@@ -2040,7 +2080,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:45",
+    "searched_at": "2026-07-01T09:02:52",
     "url": "",
     "views": ""
   },
@@ -2049,7 +2089,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:02:40",
+    "searched_at": "2026-07-01T09:02:48",
     "url": "",
     "views": ""
   },
@@ -2091,7 +2131,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:03:34",
+    "searched_at": "2026-07-01T09:03:40",
     "url": "",
     "views": ""
   },
@@ -2122,7 +2162,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:27",
+    "searched_at": "2026-07-01T09:07:24",
     "url": "",
     "views": ""
   },
@@ -2131,7 +2171,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:24",
+    "searched_at": "2026-07-01T09:07:21",
     "url": "",
     "views": ""
   },
@@ -2170,12 +2210,14 @@
   },
   "5806|無自覚聖女は今日も無意識に力を垂れ流す|OP1|Windmaker|花耶": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-06-30T09:07:39",
-    "url": "",
-    "views": ""
+    "channel": "Kaya Official YouTube Channel ",
+    "searched_at": "2026-07-01T09:07:41",
+    "title": "【Official MV】花耶(KAYA) /「Windmaker」【TV アニメ「無自覚聖女は今日も無意識に力を垂れ流す」オープニングテーマ】",
+    "url": "https://www.youtube.com/watch?v=sg1p3sEU88Q",
+    "views": 2138
   },
   "5806|片田舎のおっさん、剣聖になるII|ED1|未完成|BLUE ENCOUNT": {
     "anime_channel": "NBCUniversal Anime/Music",
@@ -2204,7 +2246,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:05:54",
+    "searched_at": "2026-07-01T09:05:59",
     "url": "",
     "views": ""
   },
@@ -2268,7 +2310,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:05",
+    "searched_at": "2026-07-01T09:06:14",
     "url": "",
     "views": ""
   },
@@ -2277,7 +2319,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:06:01",
+    "searched_at": "2026-07-01T09:06:10",
     "url": "",
     "views": ""
   },
@@ -2286,7 +2328,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:20",
+    "searched_at": "2026-07-01T09:08:07",
     "url": "",
     "views": ""
   },
@@ -2295,7 +2337,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:16",
+    "searched_at": "2026-07-01T09:08:02",
     "url": "",
     "views": ""
   },
@@ -2304,7 +2346,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:07:31",
+    "searched_at": "2026-07-01T09:07:28",
     "url": "",
     "views": ""
   },
@@ -2324,7 +2366,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:42",
+    "searched_at": "2026-07-01T09:04:39",
     "url": "",
     "views": ""
   },
@@ -2333,7 +2375,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:13",
+    "searched_at": "2026-07-01T09:04:19",
     "url": "",
     "views": ""
   },
@@ -2342,7 +2384,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:11",
+    "searched_at": "2026-07-01T09:04:16",
     "url": "",
     "views": ""
   },
@@ -2351,7 +2393,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:05:01",
+    "searched_at": "2026-07-01T09:05:08",
     "url": "",
     "views": ""
   },
@@ -2360,7 +2402,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:55",
+    "searched_at": "2026-07-01T09:05:02",
     "url": "",
     "views": ""
   },
@@ -2369,7 +2411,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:26",
+    "searched_at": "2026-07-01T09:04:33",
     "url": "",
     "views": ""
   },
@@ -2378,7 +2420,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:04:22",
+    "searched_at": "2026-07-01T09:04:27",
     "url": "",
     "views": ""
   },
@@ -2431,7 +2473,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:01",
+    "searched_at": "2026-07-01T09:07:49",
     "url": "",
     "views": ""
   },
@@ -2440,7 +2482,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:31",
+    "searched_at": "2026-07-01T09:08:18",
     "url": "",
     "views": ""
   },
@@ -2449,7 +2491,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:25",
+    "searched_at": "2026-07-01T09:08:13",
     "url": "",
     "views": ""
   },
@@ -2469,7 +2511,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:39",
+    "searched_at": "2026-07-01T09:01:42",
     "url": "",
     "views": ""
   },
@@ -2478,7 +2520,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:31",
+    "searched_at": "2026-07-01T09:01:34",
     "url": "",
     "views": ""
   },
@@ -2487,7 +2529,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:01:20",
+    "searched_at": "2026-07-01T09:01:24",
     "url": "",
     "views": ""
   },
@@ -2518,7 +2560,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:58",
+    "searched_at": "2026-07-01T09:08:44",
     "url": "",
     "views": ""
   },
@@ -2527,7 +2569,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:55",
+    "searched_at": "2026-07-01T09:08:41",
     "url": "",
     "views": ""
   },
@@ -2558,7 +2600,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:50",
+    "searched_at": "2026-07-01T09:08:36",
     "url": "",
     "views": ""
   },
@@ -2567,7 +2609,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:08:53",
+    "searched_at": "2026-07-01T09:08:39",
     "url": "",
     "views": ""
   },
@@ -2576,7 +2618,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:09:16",
+    "searched_at": "2026-07-01T09:09:01",
     "url": "",
     "views": ""
   },
@@ -2585,7 +2627,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-06-30T09:09:08",
+    "searched_at": "2026-07-01T09:08:53",
     "url": "",
     "views": ""
   },
