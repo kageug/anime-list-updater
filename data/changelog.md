@@ -1,5 +1,20 @@
 # 更新履歴
 
+## 2026-07-02
+
+### 新規アニメ (3 件)
+- [2026秋アニメ] ガールズ＆パンツァー もっとらぶらぶ作戦です！
+- [2026夏アニメ] ばなにゃ あっとほーむぱーてぃー
+- [2026秋アニメ] サイバーパンク：エッジランナーズ2
+
+### 新規YouTube動画発見 (6 件)
+- [乙女怪獣キャラメリゼ] OP1 「乙女怪獣」METANICK → METANICK - Topic https://www.youtube.com/watch?v=_wL4-eA8JmU
+- [骸骨騎士様、只今異世界へお出掛け中Ⅱ] OP1 「浪漫街道、お散歩中」PelleK → pellekofficial https://www.youtube.com/watch?v=vxtUG2AWn80
+- [正反対な君と僕 第2期] ED2 「運命の君」Mega Shinnosuke → Mega Shinnosuke https://www.youtube.com/watch?v=aRB6zduYtKg
+- [ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！] ED1 「ハンドメイド」仲村宗悟 → Shugo Nakamura Official Channel https://www.youtube.com/watch?v=7JPEgPMEZLE
+- [レッツゴー怪奇組] OP1 「気味が悪いんだからねっ」SWEET STEADY → TBSアニメ https://www.youtube.com/watch?v=xtGGu2ShVSI
+- [ワールド イズ ダンシング] ED1 「名もない花」hockrockb → SHOCHIKU anime Channel https://www.youtube.com/watch?v=h2zytdkjAU8
+
 ## 2026-07-01
 
 ### 新規アニメ (2 件)
