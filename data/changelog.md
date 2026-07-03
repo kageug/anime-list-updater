@@ -1,5 +1,12 @@
 # 更新履歴
 
+## 2026-07-03
+
+### 新規YouTube動画発見 (3 件)
+- [追放された転生重騎士はゲーム知識で無双する] OP1 「Awake」SPYAIR → SHOCHIKU anime Channel https://www.youtube.com/watch?v=_j3Bm3tr7dA
+- [鉄鍋のジャン！] OP1 「火宴」原因は自分にある。 → 原因は自分にある。Official https://www.youtube.com/watch?v=Nqel4e1h8YQ
+- [BLACK TORCH] ED1 「Groooovy」I Don't Like Mondays. → I Don't Like Mondays. https://www.youtube.com/watch?v=r-4zKDCNjwM
+
 ## 2026-07-02
 
 ### 新規アニメ (3 件)
