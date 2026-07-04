@@ -1,5 +1,15 @@
 # 更新履歴
 
+## 2026-07-04
+
+### 新規アニメ (1 件)
+- [2026秋アニメ] 氷の城壁 第2期
+
+### 新規YouTube動画発見 (3 件)
+- [「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます] OP1 「いつかちゃんと。」りりあ。 → りりあ。 https://www.youtube.com/watch?v=mgW0k9I0n-8
+- [ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season] ED1 「Firetail」チョーキューメイ → MBS animation 公式チャンネル https://www.youtube.com/watch?v=SYpHpUiGcQU
+- [領民0人スタートの辺境領主様] ED1 「星降る夜の約束」花耶 → Kaya Official YouTube Channel  https://www.youtube.com/watch?v=Wx9lV4C2ShU
+
 ## 2026-07-03
 
 ### 新規YouTube動画発見 (3 件)
