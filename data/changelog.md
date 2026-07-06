@@ -1,5 +1,24 @@
 # 更新履歴
 
+## 2026-07-06
+
+### 新規YouTube動画発見 (15 件)
+- [岩元先輩ノ推薦] OP1 「BUDDING」THE JET BOY BANGERZ → ヤンジャン漫画TV【集英社ヤングジャンプ公式】 https://www.youtube.com/watch?v=ms6fXO3Ngk4
+- [岩元先輩ノ推薦] ED1 「ココニイル」WOLF HOWL HARMONY → ヤンジャン漫画TV【集英社ヤングジャンプ公式】 https://www.youtube.com/watch?v=WM9BicFEhKs
+- [鬼の花嫁] OP1 「ヒトコト」ClariS → アニプレックス チャンネル https://www.youtube.com/watch?v=MnFWBiWIfPg
+- [鬼の花嫁] ED1 「心星」山崎育三郎 → アニプレックス チャンネル https://www.youtube.com/watch?v=ercJJBclL9k
+- [君のことが大大大大大好きな100人の彼女 第3期] OP1 「大好き♡ずっと永遠に♡」恋太郎ファミリー → Bandai Namco Filmworks Channel https://www.youtube.com/watch?v=cBhaKIqvUrQ
+- [才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様(生活能力皆無)を陰ながらお世話することになりました] OP1 「最最最高級のお世話して」angela → MBS animation 公式チャンネル https://www.youtube.com/watch?v=nWwsthEoUnQ
+- [世界最強の後衛 ～迷宮国の新人探索者～] OP1 「license」Redhair Rosy → KING AMUSEMENT CREATIVE official channel https://www.youtube.com/watch?v=RSfkFGTuPyo
+- [世界最強の後衛 ～迷宮国の新人探索者～] ED1 「終わらない夜の守り方」インナージャーニー → KING AMUSEMENT CREATIVE official channel https://www.youtube.com/watch?v=lrB8anaL9X4
+- [天幕のジャードゥーガル] OP1 「Stella」SEKAI NO OWARI → tv asahi  animation YouTubeチャンネル https://www.youtube.com/watch?v=_GlLp6hyM2E
+- [天幕のジャードゥーガル] ED1 「星」女王蜂 → tv asahi  animation YouTubeチャンネル https://www.youtube.com/watch?v=bLQV43WeRvk
+- [二十世紀電氣目録-ユーレカ・エヴリカ-] OP1 「ユーレカ・エヴリカ」五阿弥ルナ → KyoaniChannel https://www.youtube.com/watch?v=PX-b7KO3HOw
+- [花織さんは転生しても喧嘩がしたい] ED1 「ベリーグッド・エンカウント」内田真礼 → 内田真礼（UCHIDA MAAYA）Official Channel https://www.youtube.com/watch?v=SN2CGcKOZuY
+- [BLEACH 千年血戦篇-禍進譚-] OP1 「I-BULL」jo0ji → 『BLEACH』アニメ公式チャンネル https://www.youtube.com/watch?v=IJONbpfIlUg
+- [炎の闘球女 ドッジ弾子] OP1 「会心の一劇」ももいろクローバーZ → mogepuff rhythm channel https://www.youtube.com/watch?v=udTJAApluV4
+- [レッツゴー怪奇組] ED1 「呪わしてね？」雨穴 → TBSアニメ https://www.youtube.com/watch?v=MnDO2Vv4ZkA
+
 ## 2026-07-04
 
 ### 新規アニメ (1 件)
