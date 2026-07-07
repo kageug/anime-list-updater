@@ -1,5 +1,22 @@
 # 更新履歴
 
+## 2026-07-07
+
+### 新規アニメ (4 件)
+- [2026秋アニメ] デモンズ・クレスト
+- [2026秋アニメ] 仮面ライダーマイス
+- [2026秋アニメ] 生徒会にも穴はある！
+- [2026秋アニメ] スティール・ボール・ラン ジョジョの奇妙な冒険 2nd & 3rd STAGE
+
+### 新規YouTube動画発見 (7 件)
+- [ウルトラマンテオ] 主題歌1 「LINK HEARTS」ASTRO DONUTS → ASTRO DONUTS - Topic https://www.youtube.com/watch?v=2ZgaPmWvBA0
+- [最強出涸らし皇子の暗躍帝位争い] OP1 「Script」BUDDiiS → Asmik Ace https://www.youtube.com/watch?v=lWYRZq7TuHQ
+- [最強出涸らし皇子の暗躍帝位争い] ED1 「素敵なかんちがい」くらわん → くらわん【公式】 https://www.youtube.com/watch?v=p0EPk1VMVKY
+- [サンダー３] OP1 「サンダーボルト」優里 → 優里 Official YouTube Channel https://www.youtube.com/watch?v=m3VnVRHOMZM
+- [ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！] OP1 「マデュアル↔ハート」メロディ・ウェーブ(CV：宮本侑芽) ルシアナ・ルトルバーグ(CV：大久保瑠美) → TO Books. https://www.youtube.com/watch?v=N9qyQ1s06yc
+- [炎の闘球女 ドッジ弾子] ED1 「Welcome to あざとさワールド」i☆Ris → i☆Ris 公式チャンネル https://www.youtube.com/watch?v=_wOZSulv0pY
+- [とある暗部の少女共棲] ED1 「原子崩し(メルトダウナー)」岸田教団&THE明星ロケッツ → Kisidakyoudan & the Akebosi rockets official https://www.youtube.com/watch?v=JH927fq9qaM
+
 ## 2026-07-06
 
 ### 新規YouTube動画発見 (15 件)
