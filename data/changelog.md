@@ -1,5 +1,18 @@
 # 更新履歴
 
+## 2026-07-08
+
+### 新規アニメ (1 件)
+- [2026秋アニメ] 信者ゼロの女神サマと始める異世界攻略
+
+### 新規YouTube動画発見 (6 件)
+- [捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました] OP1 「Butterfly」INUWASI → ハピネット【アニメ公式】 https://www.youtube.com/watch?v=sdOQK3KW2vI
+- [捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました] ED1 「Holy Sweet Home」音感れもねゐど → ハピネット【アニメ公式】 https://www.youtube.com/watch?v=5EcanUJkPOY
+- [対ありでした。～お嬢さまは格闘ゲームなんてしない～] OP1 「命短し対する乙女よ」花冷え。 → KADOKAWAanime https://www.youtube.com/watch?v=0T9ekzDoW1k
+- [転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件] OP1 「夏に重ねて」DIALOGUE+ → DIALOGUE＋Official Channel https://www.youtube.com/watch?v=kP1sP50Tzn4
+- [天は赤い河のほとり] ED1 「Reunion」清水美依紗 → 清水美依紗 Miisha Shimizu https://www.youtube.com/watch?v=7UEZMkMqjVY
+- [ONE PIECE HEROINES] 主題歌1 「Blue Shining Star」アイナ・ジ・エンド → ONE PIECE Official YouTube Channel https://www.youtube.com/watch?v=X48ZNGHBa8A
+
 ## 2026-07-07
 
 ### 新規アニメ (4 件)
