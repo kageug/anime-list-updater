@@ -1,5 +1,15 @@
 # 更新履歴
 
+## 2026-07-09
+
+### 新規YouTube動画発見 (6 件)
+- [乙女怪獣キャラメリゼ] ED1 「オトメノホンキ」HoneyWorks feat.ハコニワリリィ → MARUMOCHI from HoneyWorks https://www.youtube.com/watch?v=uK9YgChptgg
+- [乙女ゲー世界はモブに厳しい世界です2] OP1 「人生エンドロール」Ando → KADOKAWAanime https://www.youtube.com/watch?v=i_dXw-oJZBA
+- [乙女ゲー世界はモブに厳しい世界です2] ED1 「あしたはあしたのけせらせら！」名称非公開 → KADOKAWAanime https://www.youtube.com/watch?v=pU3P4At856Q
+- [きみが死ぬまで恋をしたい] OP1 「Amore」ReoNa → ReoNa official YouTube channel https://www.youtube.com/watch?v=6C3zYwUmMKE
+- [攻殻機動隊 THE GHOST IN THE SHELL] OP1 「GO GHOST」King Gnu → Ghost in the Shell Official Channel https://www.youtube.com/watch?v=bYIT69zX8nE
+- [LV999の村人] ED1 「HP」ゆきむら。 → GREE Entertainment ANIME & GAME【公式】 https://www.youtube.com/watch?v=MgIol7kDcTE
+
 ## 2026-07-08
 
 ### 新規アニメ (1 件)
