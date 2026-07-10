@@ -1,5 +1,15 @@
 # 更新履歴
 
+## 2026-07-10
+
+### 新規アニメ (1 件)
+- [2026夏アニメ] ラブル＆クルー
+
+### 新規YouTube動画発見 (3 件)
+- [サンダー３] ED1 「しゅるれりら」音羽-otoha- → 【フジテレビ】アニメ公式チャンネル https://www.youtube.com/watch?v=2SXzmgP26bk
+- [追放された転生重騎士はゲーム知識で無双する] ED1 「Lv.1 職業：⼈間」ReoNa → ReoNa official YouTube channel https://www.youtube.com/watch?v=ylYL2rDyIHc
+- [落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～] ED1 「憧憬」TrySail → TrySail（麻倉もも・雨宮天・夏川椎菜）official YouTube channel https://www.youtube.com/watch?v=7hWVEf4JTrI
+
 ## 2026-07-09
 
 ### 新規YouTube動画発見 (6 件)
