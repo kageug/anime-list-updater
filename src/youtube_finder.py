@@ -24,6 +24,12 @@ THROTTLE_SEC = 1.5       # リクエスト間隔
 RETRY_MAX = 3
 TIMEOUT_SEC = 60
 
+# 5分を超える動画は候補から除外する(2026-07-10 ユーザー指示)。10〜20分の「まとめ/
+# コンピレーション」動画は1本に複数曲が入っていて再生数も伸びやすく、全く別の曲同士が
+# 同じ動画に誤って一致する原因になる。単曲のOP/ED/挿入歌は通常5分以内に収まるため、
+# これで機械的に弾く。duration が取得できない結果は素通しする(誤って全滅させないため)。
+MAX_DURATION_SEC = 5 * 60
+
 # 検索フェーズ全体の時間予算。これを超えたら以降は検索せずキャッシュ済みだけ使い、
 # 正常終了させる(=GitHub Actions の 60分上限に当たって job ごと打ち切られ、
 # スクレイプ済みのアニメ一覧すら commit されない事故を防ぐ安全網)。
@@ -378,6 +384,18 @@ def _build_secondary_queries(song_title: str, artist: str, anime_title: str, kin
     return queries
 
 
+def _within_duration_limit(r: dict) -> bool:
+    """5分超のまとめ/コンピレーション動画を弾く。duration 不明は素通し(誤って
+    全滅させないため)。"""
+    d = r.get("duration")
+    if d is None:
+        return True
+    try:
+        return float(d) <= MAX_DURATION_SEC
+    except (TypeError, ValueError):
+        return True
+
+
 def _run_ytdlp(query: str) -> list[dict]:
     """yt-dlp 検索を実行し、候補のメタデータ list を返す。"""
     cmd = [
@@ -388,7 +406,7 @@ def _run_ytdlp(query: str) -> list[dict]:
         "--quiet",
         "--no-warnings",
         "--print",
-        "%(.{id,title,channel,uploader,view_count,webpage_url})j",
+        "%(.{id,title,channel,uploader,view_count,duration,webpage_url})j",
     ]
     last_err: Exception | None = None
     for attempt in range(1, RETRY_MAX + 1):
@@ -412,7 +430,7 @@ def _run_ytdlp(query: str) -> list[dict]:
                     results.append(json.loads(line))
                 except json.JSONDecodeError:
                     continue
-            return results
+            return [r for r in results if _within_duration_limit(r)]
         except (subprocess.TimeoutExpired, RuntimeError) as e:
             last_err = e
             # ボット判定はリトライしても同じく弾かれる → 待たずに即あきらめる
