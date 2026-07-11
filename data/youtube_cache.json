@@ -1096,15 +1096,15 @@
     "views": 36805
   },
   "5806|BLACK TORCH|ED1|Groooovy|I Don't Like Mondays.": {
-    "anime_channel": "",
+    "anime_channel": "ShoProアニメチャンネル",
     "anime_secondary_tried": true,
-    "anime_url": "",
-    "anime_views": "",
+    "anime_url": "https://www.youtube.com/watch?v=yaX2p36llik",
+    "anime_views": 16260,
     "channel": "I Don't Like Mondays.",
-    "searched_at": "2026-07-03T09:05:57",
-    "title": "I Don't Like Mondays. / Groooovy (TVアニメ「BLACK TORCH」エンディングテーマ) [Audio]",
-    "url": "https://www.youtube.com/watch?v=r-4zKDCNjwM",
-    "views": 980
+    "searched_at": "2026-07-11T09:04:15",
+    "title": "音楽のように (Music Video)",
+    "url": "https://www.youtube.com/watch?v=PWN4MO0ILIM",
+    "views": 266478
   },
   "5806|BLACK TORCH|OP1|FREEZE ME UP|SiM": {
     "anime_channel": "ShoProアニメチャンネル",
@@ -1185,12 +1185,14 @@
   },
   "5806|「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます|ED1|最終回|sorato": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-10T09:01:25",
-    "url": "",
-    "views": ""
+    "channel": "sorato",
+    "searched_at": "2026-07-11T09:00:59",
+    "title": "sorato - 最終回 [Music Video]",
+    "url": "https://www.youtube.com/watch?v=D2yjyOW6tjc",
+    "views": 1056
   },
   "5806|「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます|OP1|いつかちゃんと。|りりあ。": {
     "anime_channel": "",
@@ -1219,7 +1221,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:00:56",
+    "searched_at": "2026-07-11T09:00:24",
     "url": "",
     "views": ""
   },
@@ -1228,7 +1230,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:00:50",
+    "searched_at": "2026-07-11T09:00:18",
     "url": "",
     "views": ""
   },
@@ -1314,7 +1316,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:01:34",
+    "searched_at": "2026-07-11T09:01:09",
     "url": "",
     "views": ""
   },
@@ -1323,18 +1325,20 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:02:06",
+    "searched_at": "2026-07-11T09:01:46",
     "url": "",
     "views": ""
   },
   "5806|ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。|OP1|それでも曇天を越えてゆく|sajou no hana": {
-    "anime_channel": "",
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-10T09:01:57",
-    "url": "",
-    "views": ""
+    "anime_channel": "GREE Entertainment ANIME & GAME【公式】",
+    "anime_secondary_tried": true,
+    "anime_url": "https://www.youtube.com/watch?v=lMq8obidFDI",
+    "anime_views": 7262,
+    "channel": "GREE Entertainment ANIME & GAME【公式】",
+    "searched_at": "2026-07-11T09:01:36",
+    "title": "TVアニメ『ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。』ノンクレジットOP｜「それでも曇天を越えてゆく」sajou no hana",
+    "url": "https://www.youtube.com/watch?v=lMq8obidFDI",
+    "views": 7262
   },
   "5806|これ描いて死ね|ED1|コニファー|リーガルリリー": {
     "anime_channel": "",
@@ -1363,7 +1367,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:02:21",
+    "searched_at": "2026-07-11T09:02:03",
     "url": "",
     "views": ""
   },
@@ -1383,7 +1387,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:04:48",
+    "searched_at": "2026-07-11T09:04:06",
     "url": "",
     "views": ""
   },
@@ -1425,7 +1429,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:00:20",
+    "searched_at": "2026-07-11T09:00:10",
     "url": "",
     "views": ""
   },
@@ -1445,7 +1449,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:01:48",
+    "searched_at": "2026-07-11T09:01:26",
     "url": "",
     "views": ""
   },
@@ -1454,7 +1458,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:01:42",
+    "searched_at": "2026-07-11T09:01:18",
     "url": "",
     "views": ""
   },
@@ -1507,7 +1511,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:02:12",
+    "searched_at": "2026-07-11T09:01:53",
     "url": "",
     "views": ""
   },
@@ -1577,7 +1581,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:03:57",
+    "searched_at": "2026-07-11T09:03:13",
     "url": "",
     "views": ""
   },
@@ -1597,7 +1601,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:04:22",
+    "searched_at": "2026-07-11T09:03:58",
     "url": "",
     "views": ""
   },
@@ -1606,7 +1610,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:04:20",
+    "searched_at": "2026-07-11T09:03:55",
     "url": "",
     "views": ""
   },
@@ -1659,7 +1663,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:06",
+    "searched_at": "2026-07-11T09:04:18",
     "url": "",
     "views": ""
   },
@@ -1679,7 +1683,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:18",
+    "searched_at": "2026-07-11T09:04:31",
     "url": "",
     "views": ""
   },
@@ -1688,7 +1692,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:38",
+    "searched_at": "2026-07-11T09:04:54",
     "url": "",
     "views": ""
   },
@@ -1873,7 +1877,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:06:27",
+    "searched_at": "2026-07-11T09:05:26",
     "url": "",
     "views": ""
   },
@@ -1950,7 +1954,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:25",
+    "searched_at": "2026-07-11T09:04:39",
     "url": "",
     "views": ""
   },
@@ -1959,7 +1963,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:28",
+    "searched_at": "2026-07-11T09:04:41",
     "url": "",
     "views": ""
   },
@@ -1968,7 +1972,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:20",
+    "searched_at": "2026-07-11T09:04:33",
     "url": "",
     "views": ""
   },
@@ -1977,7 +1981,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:01:07",
+    "searched_at": "2026-07-11T09:00:29",
     "url": "",
     "views": ""
   },
@@ -1997,7 +2001,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:03:00",
+    "searched_at": "2026-07-11T09:02:15",
     "url": "",
     "views": ""
   },
@@ -2050,7 +2054,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:02:58",
+    "searched_at": "2026-07-11T09:02:13",
     "url": "",
     "views": ""
   },
@@ -2092,7 +2096,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:50",
+    "searched_at": "2026-07-11T09:05:06",
     "url": "",
     "views": ""
   },
@@ -2200,7 +2204,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:15",
+    "searched_at": "2026-07-11T09:04:27",
     "url": "",
     "views": ""
   },
@@ -2382,12 +2386,14 @@
   },
   "5806|猫と竜|ED1|ただいまの場所|shallm": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-10T09:04:15",
-    "url": "",
-    "views": ""
+    "channel": "shallm",
+    "searched_at": "2026-07-11T09:03:50",
+    "title": "【shallm】ただいまの場所(Music Video) - TVアニメ『猫と竜』 エンディングテーマ",
+    "url": "https://www.youtube.com/watch?v=CuPyVWq5Bes",
+    "views": 2547
   },
   "5806|猫と竜|OP1|猫日|suis from ヨルシカ": {
     "anime_channel": "",
@@ -2460,7 +2466,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:04:27",
+    "searched_at": "2026-07-11T09:04:03",
     "url": "",
     "views": ""
   },
@@ -2480,7 +2486,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:59",
+    "searched_at": "2026-07-11T09:05:15",
     "url": "",
     "views": ""
   },
@@ -2489,7 +2495,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:32",
+    "searched_at": "2026-07-11T09:04:46",
     "url": "",
     "views": ""
   },
@@ -2530,19 +2536,19 @@
     "anime_channel": "SHOCHIKU anime Channel",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=_j3Bm3tr7dA",
-    "anime_views": 4513,
+    "anime_views": 100304,
     "channel": "SHOCHIKU anime Channel",
-    "searched_at": "2026-07-03T09:03:44",
+    "searched_at": "2026-07-11T09:02:25",
     "title": "『追放された転生重騎士はゲーム知識で無双する』ノンクレジットオープニング映像",
     "url": "https://www.youtube.com/watch?v=_j3Bm3tr7dA",
-    "views": 4513
+    "views": 100304
   },
   "5806|逃げ上手の若君 第二期|OP1|鬼事|中島健人": {
     "anime_channel": "",
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:04:06",
+    "searched_at": "2026-07-11T09:03:22",
     "url": "",
     "views": ""
   },
@@ -2551,7 +2557,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:03:51",
+    "searched_at": "2026-07-11T09:03:06",
     "url": "",
     "views": ""
   },
@@ -2560,7 +2566,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:03:42",
+    "searched_at": "2026-07-11T09:02:59",
     "url": "",
     "views": ""
   },
@@ -2569,7 +2575,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:03:16",
+    "searched_at": "2026-07-11T09:02:49",
     "url": "",
     "views": ""
   },
@@ -2579,10 +2585,10 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "原因は自分にある。Official",
-    "searched_at": "2026-07-03T09:04:04",
-    "title": "火宴 (Intro ver.)",
-    "url": "https://www.youtube.com/watch?v=Nqel4e1h8YQ",
-    "views": 15417
+    "searched_at": "2026-07-11T09:02:43",
+    "title": "火宴",
+    "url": "https://www.youtube.com/watch?v=j44OcUcmKCU",
+    "views": 47223
   },
   "5806|鎧真伝サムライトルーパー 第2クール|ED1|POWER|ONE OR EIGHT": {
     "anime_channel": "TVアニメ『鎧真伝サムライトルーパー』公式",
@@ -2633,7 +2639,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:05:41",
+    "searched_at": "2026-07-11T09:04:56",
     "url": "",
     "views": ""
   },
@@ -2653,7 +2659,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:06:25",
+    "searched_at": "2026-07-11T09:05:24",
     "url": "",
     "views": ""
   },
@@ -2739,7 +2745,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:32",
+    "searched_at": "2026-07-11T09:06:21",
     "url": "",
     "views": ""
   },
@@ -2748,7 +2754,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:05",
+    "searched_at": "2026-07-11T09:05:51",
     "url": "",
     "views": ""
   },
@@ -2757,7 +2763,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:03",
+    "searched_at": "2026-07-11T09:05:49",
     "url": "",
     "views": ""
   },
@@ -2766,7 +2772,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:12",
+    "searched_at": "2026-07-11T09:06:00",
     "url": "",
     "views": ""
   },
@@ -2775,7 +2781,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:37",
+    "searched_at": "2026-07-11T09:06:26",
     "url": "",
     "views": ""
   },
@@ -2806,7 +2812,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:06:55",
+    "searched_at": "2026-07-11T09:05:39",
     "url": "",
     "views": ""
   },
@@ -2815,7 +2821,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:06:52",
+    "searched_at": "2026-07-11T09:05:36",
     "url": "",
     "views": ""
   },
@@ -2824,7 +2830,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:06:58",
+    "searched_at": "2026-07-11T09:05:43",
     "url": "",
     "views": ""
   },
@@ -2833,7 +2839,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:00",
+    "searched_at": "2026-07-11T09:05:46",
     "url": "",
     "views": ""
   },
@@ -2842,7 +2848,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:08:05",
+    "searched_at": "2026-07-11T09:06:35",
     "url": "",
     "views": ""
   },
@@ -2851,7 +2857,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:08:01",
+    "searched_at": "2026-07-11T09:06:31",
     "url": "",
     "views": ""
   },
@@ -2860,7 +2866,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:28",
+    "searched_at": "2026-07-11T09:06:17",
     "url": "",
     "views": ""
   },
@@ -2869,7 +2875,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-10T09:07:20",
+    "searched_at": "2026-07-11T09:06:08",
     "url": "",
     "views": ""
   },

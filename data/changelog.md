@@ -1,5 +1,12 @@
 # 更新履歴
 
+## 2026-07-11
+
+### 新規YouTube動画発見 (3 件)
+- [「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます] ED1 「最終回」sorato → sorato https://www.youtube.com/watch?v=D2yjyOW6tjc
+- [ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。] OP1 「それでも曇天を越えてゆく」sajou no hana → GREE Entertainment ANIME & GAME【公式】 https://www.youtube.com/watch?v=lMq8obidFDI
+- [猫と竜] ED1 「ただいまの場所」shallm → shallm https://www.youtube.com/watch?v=CuPyVWq5Bes
+
 ## 2026-07-10
 
 ### 新規アニメ (1 件)
