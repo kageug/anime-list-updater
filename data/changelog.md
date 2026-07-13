@@ -1,5 +1,12 @@
 # 更新履歴
 
+## 2026-07-13
+
+### 新規YouTube動画発見 (3 件)
+- [さよならララ] ED1 「Hearts Glow」Hana Hope → Hana Hope https://www.youtube.com/watch?v=H8BSBY59Dh0
+- [花織さんは転生しても喧嘩がしたい] OP1 「ハイメンテナンスガール」オーイシマサヨシ → ぽにきゃん-Anime PONY CANYON https://www.youtube.com/watch?v=dv1TGoV_aS8
+- [領民0人スタートの辺境領主様] OP1 「Wonder」CROWN HEAD → CROWN HEAD https://www.youtube.com/watch?v=ivJRaXk3GUw
+
 ## 2026-07-11
 
 ### 新規YouTube動画発見 (3 件)

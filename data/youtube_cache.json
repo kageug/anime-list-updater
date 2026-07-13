@@ -1221,7 +1221,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:00:24",
+    "searched_at": "2026-07-13T09:00:22",
     "url": "",
     "views": ""
   },
@@ -1230,7 +1230,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:00:18",
+    "searched_at": "2026-07-13T09:00:16",
     "url": "",
     "views": ""
   },
@@ -1316,7 +1316,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:00:54",
+    "searched_at": "2026-07-13T09:00:34",
     "url": "",
     "views": ""
   },
@@ -1325,7 +1325,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:18",
+    "searched_at": "2026-07-13T09:01:01",
     "url": "",
     "views": ""
   },
@@ -1364,12 +1364,14 @@
   },
   "5806|さよならララ|ED1|Hearts Glow|Hana Hope": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-12T09:01:33",
-    "url": "",
-    "views": ""
+    "channel": "Hana Hope",
+    "searched_at": "2026-07-13T09:01:34",
+    "title": "Hana Hope - Hearts Glow Teaser1",
+    "url": "https://www.youtube.com/watch?v=H8BSBY59Dh0",
+    "views": 1198
   },
   "5806|さよならララ|OP1|さよならララ|いきものがかり": {
     "anime_channel": "KADOKAWAanime",
@@ -1387,7 +1389,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:10",
+    "searched_at": "2026-07-13T09:02:44",
     "url": "",
     "views": ""
   },
@@ -1429,7 +1431,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:00:10",
+    "searched_at": "2026-07-13T09:00:09",
     "url": "",
     "views": ""
   },
@@ -1449,7 +1451,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:10",
+    "searched_at": "2026-07-13T09:00:51",
     "url": "",
     "views": ""
   },
@@ -1458,7 +1460,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:03",
+    "searched_at": "2026-07-13T09:00:43",
     "url": "",
     "views": ""
   },
@@ -1511,7 +1513,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:24",
+    "searched_at": "2026-07-13T09:01:07",
     "url": "",
     "views": ""
   },
@@ -1581,7 +1583,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:02:34",
+    "searched_at": "2026-07-13T09:02:15",
     "url": "",
     "views": ""
   },
@@ -1601,7 +1603,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:01",
+    "searched_at": "2026-07-13T09:02:32",
     "url": "",
     "views": ""
   },
@@ -1610,7 +1612,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:02:58",
+    "searched_at": "2026-07-13T09:02:30",
     "url": "",
     "views": ""
   },
@@ -1663,7 +1665,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:21",
+    "searched_at": "2026-07-13T09:02:46",
     "url": "",
     "views": ""
   },
@@ -1683,7 +1685,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:33",
+    "searched_at": "2026-07-13T09:02:59",
     "url": "",
     "views": ""
   },
@@ -1692,7 +1694,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:04:03",
+    "searched_at": "2026-07-13T09:03:21",
     "url": "",
     "views": ""
   },
@@ -1877,7 +1879,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:04:45",
+    "searched_at": "2026-07-13T09:04:04",
     "url": "",
     "views": ""
   },
@@ -1954,7 +1956,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:49",
+    "searched_at": "2026-07-13T09:03:07",
     "url": "",
     "views": ""
   },
@@ -1963,7 +1965,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:51",
+    "searched_at": "2026-07-13T09:03:09",
     "url": "",
     "views": ""
   },
@@ -1972,7 +1974,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:44",
+    "searched_at": "2026-07-13T09:03:01",
     "url": "",
     "views": ""
   },
@@ -1981,7 +1983,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:00:27",
+    "searched_at": "2026-07-13T09:00:25",
     "url": "",
     "views": ""
   },
@@ -2001,7 +2003,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:45",
+    "searched_at": "2026-07-13T09:01:47",
     "url": "",
     "views": ""
   },
@@ -2054,7 +2056,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:42",
+    "searched_at": "2026-07-13T09:01:44",
     "url": "",
     "views": ""
   },
@@ -2096,7 +2098,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:04:15",
+    "searched_at": "2026-07-13T09:03:34",
     "url": "",
     "views": ""
   },
@@ -2204,7 +2206,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:30",
+    "searched_at": "2026-07-13T09:02:56",
     "url": "",
     "views": ""
   },
@@ -2462,13 +2464,15 @@
     "views": 3525
   },
   "5806|花織さんは転生しても喧嘩がしたい|OP1|ハイメンテナンスガール|オーイシマサヨシ": {
-    "anime_channel": "",
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-12T09:03:08",
-    "url": "",
-    "views": ""
+    "anime_channel": "ぽにきゃん-Anime PONY CANYON",
+    "anime_secondary_tried": true,
+    "anime_url": "https://www.youtube.com/watch?v=dv1TGoV_aS8",
+    "anime_views": 10238,
+    "channel": "ぽにきゃん-Anime PONY CANYON",
+    "searched_at": "2026-07-13T09:02:41",
+    "title": "TVアニメ『花織さんは転生しても喧嘩がしたい』ノンクレジットOP｜オーイシマサヨシ「ハイメンテナンスガール」",
+    "url": "https://www.youtube.com/watch?v=dv1TGoV_aS8",
+    "views": 10238
   },
   "5806|落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～|ED1|憧憬|TrySail": {
     "anime_channel": "",
@@ -2486,7 +2490,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:04:25",
+    "searched_at": "2026-07-13T09:03:43",
     "url": "",
     "views": ""
   },
@@ -2495,7 +2499,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:03:56",
+    "searched_at": "2026-07-13T09:03:13",
     "url": "",
     "views": ""
   },
@@ -2548,7 +2552,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:02:44",
+    "searched_at": "2026-07-13T09:02:24",
     "url": "",
     "views": ""
   },
@@ -2557,7 +2561,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:02:27",
+    "searched_at": "2026-07-13T09:02:08",
     "url": "",
     "views": ""
   },
@@ -2566,7 +2570,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:02:20",
+    "searched_at": "2026-07-13T09:02:01",
     "url": "",
     "views": ""
   },
@@ -2575,7 +2579,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:01:50",
+    "searched_at": "2026-07-13T09:01:52",
     "url": "",
     "views": ""
   },
@@ -2639,7 +2643,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:04:05",
+    "searched_at": "2026-07-13T09:03:24",
     "url": "",
     "views": ""
   },
@@ -2656,12 +2660,14 @@
   },
   "5806|領民0人スタートの辺境領主様|OP1|Wonder|CROWN HEAD": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-12T09:04:34",
-    "url": "",
-    "views": ""
+    "channel": "CROWN HEAD",
+    "searched_at": "2026-07-13T09:04:01",
+    "title": "CROWN HEAD /「Wonder」Music Video（TVアニメ「領民0人スタートの辺境領主様」オープニング・テーマ）",
+    "url": "https://www.youtube.com/watch?v=ivJRaXk3GUw",
+    "views": 634
   },
   "5806|骸骨騎士様、只今異世界へお出掛け中Ⅱ|ED1|奇跡は起きない|DIALOGUE+": {
     "anime_channel": "",
@@ -2745,7 +2751,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:47",
+    "searched_at": "2026-07-13T09:05:00",
     "url": "",
     "views": ""
   },
@@ -2754,7 +2760,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:18",
+    "searched_at": "2026-07-13T09:04:28",
     "url": "",
     "views": ""
   },
@@ -2763,7 +2769,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:16",
+    "searched_at": "2026-07-13T09:04:26",
     "url": "",
     "views": ""
   },
@@ -2772,7 +2778,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:26",
+    "searched_at": "2026-07-13T09:04:39",
     "url": "",
     "views": ""
   },
@@ -2781,7 +2787,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:52",
+    "searched_at": "2026-07-13T09:05:05",
     "url": "",
     "views": ""
   },
@@ -2812,7 +2818,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:06",
+    "searched_at": "2026-07-13T09:04:16",
     "url": "",
     "views": ""
   },
@@ -2821,7 +2827,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:03",
+    "searched_at": "2026-07-13T09:04:13",
     "url": "",
     "views": ""
   },
@@ -2830,7 +2836,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:11",
+    "searched_at": "2026-07-13T09:04:21",
     "url": "",
     "views": ""
   },
@@ -2839,7 +2845,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:13",
+    "searched_at": "2026-07-13T09:04:23",
     "url": "",
     "views": ""
   },
@@ -2848,7 +2854,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:06:01",
+    "searched_at": "2026-07-13T09:05:16",
     "url": "",
     "views": ""
   },
@@ -2857,7 +2863,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:56",
+    "searched_at": "2026-07-13T09:05:10",
     "url": "",
     "views": ""
   },
@@ -2866,7 +2872,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:42",
+    "searched_at": "2026-07-13T09:04:55",
     "url": "",
     "views": ""
   },
@@ -2875,7 +2881,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-12T09:05:34",
+    "searched_at": "2026-07-13T09:04:47",
     "url": "",
     "views": ""
   },
