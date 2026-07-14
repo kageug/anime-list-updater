@@ -1,5 +1,17 @@
 # 更新履歴
 
+## 2026-07-14
+
+### 新規アニメ (1 件)
+- [2026秋アニメ] 千歳くんはラムネ瓶のなか 第2クール
+
+### 新規YouTube動画発見 (5 件)
+- [いびってこない義母と義姉] OP1 「雨宿りの憧憬」Lia → NBCUniversal Anime/Music https://www.youtube.com/watch?v=k2Gfd254sMg
+- [ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。] ED1 「在り来たりな日常と幸運な日々へ」名称非公開 → GREE Entertainment ANIME & GAME【公式】 https://www.youtube.com/watch?v=UDD-U-c-m9Y
+- [闇芝居 十七期] ED1 「闇芝居のブルース」風輪（徳間ジャパンコミュニケーションズ） → 闇芝居チャンネル https://www.youtube.com/watch?v=VYlvomHOnO4
+- [千歳くんはラムネ瓶のなか 第2クール] OP1 「ライアー」Kucci → KADOKAWAanime https://www.youtube.com/watch?v=pjGmDIrNgHw
+- [千歳くんはラムネ瓶のなか 第2クール] ED1 「陽炎」サイダーガール → KADOKAWAanime https://www.youtube.com/watch?v=ca7_nIyte3I
+
 ## 2026-07-13
 
 ### 新規YouTube動画発見 (3 件)
