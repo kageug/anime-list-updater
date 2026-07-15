@@ -1,5 +1,15 @@
 # 更新履歴
 
+## 2026-07-15
+
+### 新規アニメ (1 件)
+- [2026秋アニメ] 紫禁・御猫房〜紫禁城猫警備室〜
+
+### 新規YouTube動画発見 (3 件)
+- [対ありでした。～お嬢さまは格闘ゲームなんてしない～] ED1 「NEW GAME」halca → KADOKAWAanime https://www.youtube.com/watch?v=GKtdRThIuuE
+- [逃げ上手の若君 第二期] ED1 「ロマンティックがほしいなら」ぼっちぼろまる → アニプレックス チャンネル https://www.youtube.com/watch?v=VNl4J9b_xhE
+- [ブラッククローバー 2nd Season] OP1 「消えない理由」WANIMA → Anime Trailer アニメ https://www.youtube.com/watch?v=1BWy13nlY1A
+
 ## 2026-07-14
 
 ### 新規アニメ (1 件)
