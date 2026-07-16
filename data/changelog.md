@@ -1,5 +1,13 @@
 # 更新履歴
 
+## 2026-07-16
+
+### 新規YouTube動画発見 (4 件)
+- [クレバテスII-魔獣の王と偽りの勇者伝承-] OP1 「Foreshadow」前島麻由 → KADOKAWAanime https://www.youtube.com/watch?v=SiTi3WCmzfc
+- [クレバテスII-魔獣の王と偽りの勇者伝承-] ED1 「Awake Anew」MYTH & ROID → KADOKAWAanime https://www.youtube.com/watch?v=Tbyi0Tx1QLA
+- [幼女戦記Ⅱ] OP1 「Why? RED induction」MYTH & ROID → KADOKAWAanime https://www.youtube.com/watch?v=IVyvkwvsqW0
+- [幼女戦記Ⅱ] ED1 「Weiter! Weiter!」ターニャ・デグレチャフ（CV：悠木碧） → KADOKAWAanime https://www.youtube.com/watch?v=x2k_iYCGKvE
+
 ## 2026-07-15
 
 ### 新規アニメ (1 件)
