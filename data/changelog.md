@@ -1,5 +1,13 @@
 # 更新履歴
 
+## 2026-07-18
+
+### 新規YouTube動画発見 (4 件)
+- [天は赤い河のほとり] ED1 「Reunion」清水美依紗 → VAP Official https://www.youtube.com/watch?v=z0cYxw8Eifg
+- [透明な夜に駆ける君と、目に見えない恋をした。] ED1 「光」櫻井優衣 → 櫻井優衣 -SAKURAI YUI- (OFFICIAL) https://www.youtube.com/watch?v=_eUtav7vS38
+- [逃げ上手の若君 第二期] OP1 「鬼事」中島健人 → Kento Nakajima Official YouTube Channel https://www.youtube.com/watch?v=wp_4AThBtCA
+- [北斗の拳 拳王軍ザコたちの挽歌 第2クール] ED1 「Elegy of the Enemies」The Canbellz → 神戸シンキ / The Canbellz https://www.youtube.com/watch?v=_EEMJOr1NLA
+
 ## 2026-07-17
 
 ### 新規アニメ (1 件)
