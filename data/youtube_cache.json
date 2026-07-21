@@ -1110,12 +1110,12 @@
     "anime_channel": "ShoProアニメチャンネル",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=2FjRzlo5zHI",
-    "anime_views": 472908,
+    "anime_views": 501334,
     "channel": "ShoProアニメチャンネル",
-    "searched_at": "2026-07-12T09:03:19",
+    "searched_at": "2026-07-21T09:02:25",
     "title": "TVアニメ『BLACK TORCH』ノンクレジットオープニング映像｜SiM「FREEZE ME UP」",
     "url": "https://www.youtube.com/watch?v=2FjRzlo5zHI",
-    "views": 472908
+    "views": 501334
   },
   "5806|BLEACH 千年血戦篇-禍進譚-|ED1|螺旋|9Lana": {
     "anime_channel": "『BLEACH』アニメ公式チャンネル",
@@ -1200,10 +1200,10 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "りりあ。",
-    "searched_at": "2026-07-12T09:00:45",
+    "searched_at": "2026-07-21T09:00:40",
     "title": "りりあ。riria. / 「いつかちゃんと。」“Itsuka Chanto.”[Music Video]",
     "url": "https://www.youtube.com/watch?v=mgW0k9I0n-8",
-    "views": 62831
+    "views": 84295
   },
   "5806|あはれ！名作くん（新シリーズ）|主題歌1|ナンセンスナンセンス|フレデリック": {
     "anime_channel": "",
@@ -1221,7 +1221,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:00:40",
+    "searched_at": "2026-07-21T09:00:15",
     "url": "",
     "views": ""
   },
@@ -1263,7 +1263,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:00:43",
+    "searched_at": "2026-07-21T09:00:18",
     "url": "",
     "views": ""
   },
@@ -1316,7 +1316,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:01:51",
+    "searched_at": "2026-07-21T09:00:49",
     "url": "",
     "views": ""
   },
@@ -1365,15 +1365,15 @@
     "views": 374803
   },
   "5806|さよならララ|ED1|Hearts Glow|Hana Hope": {
-    "anime_channel": "",
+    "anime_channel": "KADOKAWAanime",
     "anime_secondary_tried": true,
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "Hana Hope",
-    "searched_at": "2026-07-13T09:01:34",
-    "title": "Hana Hope - Hearts Glow Teaser1",
-    "url": "https://www.youtube.com/watch?v=H8BSBY59Dh0",
-    "views": 1198
+    "anime_url": "https://www.youtube.com/watch?v=od3XN58Gnws",
+    "anime_views": 16719,
+    "channel": "KADOKAWAanime",
+    "searched_at": "2026-07-21T09:01:13",
+    "title": "オリジナルTVアニメ『さよならララ』ノンテロップエンディング映像 |好評放送・配信中！",
+    "url": "https://www.youtube.com/watch?v=od3XN58Gnws",
+    "views": 16719
   },
   "5806|さよならララ|OP1|さよならララ|いきものがかり": {
     "anime_channel": "KADOKAWAanime",
@@ -1391,7 +1391,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:04:58",
+    "searched_at": "2026-07-21T09:02:16",
     "url": "",
     "views": ""
   },
@@ -1429,13 +1429,15 @@
     "views": 57387
   },
   "5806|アズールレーン びそくぜんしんっ！にっ！！|主題歌2|Lu lu lun♪〜ウラハラ気分はオートマティック〜|橋本みゆき": {
-    "anime_channel": "",
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-18T09:00:13",
-    "url": "",
-    "views": ""
+    "anime_channel": "SHOCHIKU anime Channel",
+    "anime_secondary_tried": true,
+    "anime_url": "https://www.youtube.com/watch?v=0s8wRiSeKyg",
+    "anime_views": 5774,
+    "channel": "SHOCHIKU anime Channel",
+    "searched_at": "2026-07-21T09:00:12",
+    "title": "『アズールレーン びそくぜんしんっ！にっ！！』ノンクレジット映像｜「Lu lu lun♪〜ウラハラ気分はオートマティック〜」橋本みゆき",
+    "url": "https://www.youtube.com/watch?v=0s8wRiSeKyg",
+    "views": 5774
   },
   "5806|ウルトラマンテオ|主題歌1|LINK HEARTS|ASTRO DONUTS": {
     "anime_channel": "",
@@ -1516,12 +1518,14 @@
   },
   "5806|サイボーグ009 ネメシス|ED1|クライマル|スキマスイッチ": {
     "anime_channel": "",
+    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-18T09:02:06",
-    "url": "",
-    "views": ""
+    "channel": "【公式】石森プロ",
+    "searched_at": "2026-07-21T09:01:04",
+    "title": "【期間限定】7月18日（土）開催『サイボーグ009 ネメシス』先行上映会 スキマスイッチ コメント",
+    "url": "https://www.youtube.com/watch?v=xLU_wlNciSI",
+    "views": 1041
   },
   "5806|サイボーグ009 ネメシス|OP1|誰がために|杏子": {
     "anime_channel": "",
@@ -1589,7 +1593,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:04:06",
+    "searched_at": "2026-07-21T09:01:45",
     "url": "",
     "views": ""
   },
@@ -1609,7 +1613,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:04:36",
+    "searched_at": "2026-07-21T09:02:04",
     "url": "",
     "views": ""
   },
@@ -1618,7 +1622,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:04:32",
+    "searched_at": "2026-07-21T09:02:00",
     "url": "",
     "views": ""
   },
@@ -1671,7 +1675,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:05:28",
+    "searched_at": "2026-07-21T09:02:28",
     "url": "",
     "views": ""
   },
@@ -1679,19 +1683,19 @@
     "anime_channel": "MBS animation 公式チャンネル",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=SYpHpUiGcQU",
-    "anime_views": 13869,
+    "anime_views": 17994,
     "channel": "MBS animation 公式チャンネル",
-    "searched_at": "2026-07-12T09:03:41",
+    "searched_at": "2026-07-21T09:02:49",
     "title": "TVアニメ『ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～』2nd Seasonノンクレジットエンディング映像｜チョーキューメイ「Firetail」",
     "url": "https://www.youtube.com/watch?v=SYpHpUiGcQU",
-    "views": 13869
+    "views": 17994
   },
   "5806|ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season|OP1|○✕△□|浪漫派マシュマロ": {
     "anime_channel": "",
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:05:41",
+    "searched_at": "2026-07-21T09:02:40",
     "url": "",
     "views": ""
   },
@@ -1875,19 +1879,19 @@
     "anime_channel": "KADOKAWAanime",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=HjtjOaJz-_U",
-    "anime_views": 173757,
+    "anime_views": 186682,
     "channel": "KADOKAWAanime",
-    "searched_at": "2026-07-12T09:04:54",
+    "searched_at": "2026-07-21T09:03:39",
     "title": "TVアニメ『令和のダラさん』ノンクレジットエンディング映像  | 2026年7月2日（木）放送開始",
     "url": "https://www.youtube.com/watch?v=HjtjOaJz-_U",
-    "views": 173757
+    "views": 186682
   },
   "5806|令和のダラさん|OP1|ダラダラ♡ダンシング|ダラさん（CV：田村睦心） 三⼗⽊⾕⽇向（CV：津田美波） 三⼗⽊⾕薫（CV：寺澤百花） ナレーション（CV：てらそままさき）": {
     "anime_channel": "",
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:06:33",
+    "searched_at": "2026-07-21T09:03:29",
     "url": "",
     "views": ""
   },
@@ -1975,7 +1979,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:05:58",
+    "searched_at": "2026-07-21T09:02:55",
     "url": "",
     "views": ""
   },
@@ -1984,7 +1988,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:05:43",
+    "searched_at": "2026-07-21T09:02:52",
     "url": "",
     "views": ""
   },
@@ -1993,7 +1997,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:01:04",
+    "searched_at": "2026-07-21T09:00:20",
     "url": "",
     "views": ""
   },
@@ -2013,7 +2017,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:02:27",
+    "searched_at": "2026-07-21T09:01:16",
     "url": "",
     "views": ""
   },
@@ -2220,7 +2224,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:05:37",
+    "searched_at": "2026-07-21T09:02:38",
     "url": "",
     "views": ""
   },
@@ -2415,12 +2419,12 @@
     "anime_channel": "宝島社公式",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=ZH8xYK5vac0",
-    "anime_views": 72237,
-    "channel": "宝島社公式",
-    "searched_at": "2026-07-12T09:02:53",
-    "title": "TVアニメ『猫と竜』ノンクレジットオープニング映像【2026年7月より放送&配信中！】",
-    "url": "https://www.youtube.com/watch?v=ZH8xYK5vac0",
-    "views": 72237
+    "anime_views": 108510,
+    "channel": "suis from Yorushika - Topic",
+    "searched_at": "2026-07-21T09:01:54",
+    "title": "Cat Days",
+    "url": "https://www.youtube.com/watch?v=k3NwKLjfEOw",
+    "views": 178868
   },
   "5806|盗掘王|ED1|To Be Continued|QWER": {
     "anime_channel": "KADOKAWAanime",
@@ -2481,12 +2485,12 @@
     "anime_channel": "ぽにきゃん-Anime PONY CANYON",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=dv1TGoV_aS8",
-    "anime_views": 10238,
+    "anime_views": 36586,
     "channel": "ぽにきゃん-Anime PONY CANYON",
-    "searched_at": "2026-07-13T09:02:41",
+    "searched_at": "2026-07-21T09:02:13",
     "title": "TVアニメ『花織さんは転生しても喧嘩がしたい』ノンクレジットOP｜オーイシマサヨシ「ハイメンテナンスガール」",
     "url": "https://www.youtube.com/watch?v=dv1TGoV_aS8",
-    "views": 10238
+    "views": 36586
   },
   "5806|落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～|ED1|憧憬|TrySail": {
     "anime_channel": "",
@@ -2504,7 +2508,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:06:12",
+    "searched_at": "2026-07-21T09:03:09",
     "url": "",
     "views": ""
   },
@@ -2513,20 +2517,18 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:06:02",
+    "searched_at": "2026-07-21T09:02:59",
     "url": "",
     "views": ""
   },
   "5806|転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件|ED1|Tilt|harmoe": {
     "anime_channel": "",
-    "anime_secondary_tried": true,
     "anime_url": "",
     "anime_views": "",
-    "channel": "harmoeオフィシャルYouTubeチャンネル",
-    "searched_at": "2026-07-12T09:02:10",
-    "title": "【harmoe】『Tilt』Music Video Full ver.【3rdアルバム】",
-    "url": "https://www.youtube.com/watch?v=UTEjVKRw1Gs",
-    "views": 4523
+    "channel": "",
+    "searched_at": "2026-07-21T09:01:27",
+    "url": "",
+    "views": ""
   },
   "5806|転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件|OP1|夏に重ねて|DIALOGUE+": {
     "anime_channel": "",
@@ -2599,18 +2601,20 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:03:41",
+    "searched_at": "2026-07-21T09:01:36",
     "url": "",
     "views": ""
   },
   "5806|鉄鍋のジャン！|ED1|泣いた悪魔|えむにみに": {
-    "anime_channel": "",
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "",
-    "searched_at": "2026-07-18T09:03:03",
-    "url": "",
-    "views": ""
+    "anime_channel": "NBCUniversal Anime/Music",
+    "anime_secondary_tried": true,
+    "anime_url": "https://www.youtube.com/watch?v=1tc784esysA",
+    "anime_views": 7476,
+    "channel": "NBCUniversal Anime/Music",
+    "searched_at": "2026-07-21T09:01:25",
+    "title": "TVアニメ『鉄鍋のジャン！』ノンクレジットエンディング映像",
+    "url": "https://www.youtube.com/watch?v=1tc784esysA",
+    "views": 7476
   },
   "5806|鉄鍋のジャン！|OP1|火宴|原因は自分にある。": {
     "anime_channel": "NBCUniversal Anime/Music",
@@ -2682,23 +2686,23 @@
     "anime_channel": "NBCUniversal Anime/Music",
     "anime_secondary_tried": true,
     "anime_url": "https://www.youtube.com/watch?v=dhAKFhT6pno",
-    "anime_views": 5403,
-    "channel": "Kaya Official YouTube Channel ",
-    "searched_at": "2026-07-12T09:04:43",
-    "title": "【Official MV】花耶(KAYA) /「星降る夜の約束」【TV アニメ「領民0人スタートの辺境領主様」エンディングテーマ】",
-    "url": "https://www.youtube.com/watch?v=Wx9lV4C2ShU",
-    "views": 8320
+    "anime_views": 55761,
+    "channel": "NBCUniversal Anime/Music",
+    "searched_at": "2026-07-21T09:03:27",
+    "title": "7月より放送中！TVアニメ「#領民0人スタートの辺境領主様 」ノンクレジット・エンディング映像",
+    "url": "https://www.youtube.com/watch?v=dhAKFhT6pno",
+    "views": 55761
   },
   "5806|領民0人スタートの辺境領主様|OP1|Wonder|CROWN HEAD": {
-    "anime_channel": "",
+    "anime_channel": "NBCUniversal Anime/Music",
     "anime_secondary_tried": true,
-    "anime_url": "",
-    "anime_views": "",
-    "channel": "CROWN HEAD",
-    "searched_at": "2026-07-13T09:04:01",
-    "title": "CROWN HEAD /「Wonder」Music Video（TVアニメ「領民0人スタートの辺境領主様」オープニング・テーマ）",
-    "url": "https://www.youtube.com/watch?v=ivJRaXk3GUw",
-    "views": 634
+    "anime_url": "https://www.youtube.com/watch?v=fCboU3XWuLU",
+    "anime_views": 7627,
+    "channel": "NBCUniversal Anime/Music",
+    "searched_at": "2026-07-21T09:03:18",
+    "title": "7月より放送中！TVアニメ「#領民0人スタートの辺境領主様 」ノンクレジット・オープニング映像",
+    "url": "https://www.youtube.com/watch?v=fCboU3XWuLU",
+    "views": 7627
   },
   "5806|骸骨騎士様、只今異世界へお出掛け中Ⅱ|ED1|奇跡は起きない|DIALOGUE+": {
     "anime_channel": "オーバーラップチャンネル",
@@ -2771,7 +2775,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:21",
+    "searched_at": "2026-07-21T09:04:09",
     "url": "",
     "views": ""
   },
@@ -2791,7 +2795,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:52",
+    "searched_at": "2026-07-21T09:04:39",
     "url": "",
     "views": ""
   },
@@ -2800,7 +2804,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:16",
+    "searched_at": "2026-07-21T09:04:05",
     "url": "",
     "views": ""
   },
@@ -2809,7 +2813,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:14",
+    "searched_at": "2026-07-21T09:04:02",
     "url": "",
     "views": ""
   },
@@ -2818,7 +2822,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:31",
+    "searched_at": "2026-07-21T09:04:18",
     "url": "",
     "views": ""
   },
@@ -2882,7 +2886,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:04",
+    "searched_at": "2026-07-21T09:03:53",
     "url": "",
     "views": ""
   },
@@ -2891,7 +2895,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:01",
+    "searched_at": "2026-07-21T09:03:48",
     "url": "",
     "views": ""
   },
@@ -2900,7 +2904,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:08",
+    "searched_at": "2026-07-21T09:03:57",
     "url": "",
     "views": ""
   },
@@ -2909,7 +2913,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:11",
+    "searched_at": "2026-07-21T09:03:59",
     "url": "",
     "views": ""
   },
@@ -2918,7 +2922,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:08:22",
+    "searched_at": "2026-07-21T09:04:49",
     "url": "",
     "views": ""
   },
@@ -2927,7 +2931,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:08:17",
+    "searched_at": "2026-07-21T09:04:43",
     "url": "",
     "views": ""
   },
@@ -2936,7 +2940,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:47",
+    "searched_at": "2026-07-21T09:04:34",
     "url": "",
     "views": ""
   },
@@ -2945,7 +2949,7 @@
     "anime_url": "",
     "anime_views": "",
     "channel": "",
-    "searched_at": "2026-07-18T09:07:39",
+    "searched_at": "2026-07-21T09:04:26",
     "url": "",
     "views": ""
   },

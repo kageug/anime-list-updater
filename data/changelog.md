@@ -1,5 +1,12 @@
 # 更新履歴
 
+## 2026-07-21
+
+### 新規YouTube動画発見 (3 件)
+- [アズールレーン びそくぜんしんっ！にっ！！] 主題歌2 「Lu lu lun♪〜ウラハラ気分はオートマティック〜」橋本みゆき → SHOCHIKU anime Channel https://www.youtube.com/watch?v=0s8wRiSeKyg
+- [サイボーグ009 ネメシス] ED1 「クライマル」スキマスイッチ → 【公式】石森プロ https://www.youtube.com/watch?v=xLU_wlNciSI
+- [鉄鍋のジャン！] ED1 「泣いた悪魔」えむにみに → NBCUniversal Anime/Music https://www.youtube.com/watch?v=1tc784esysA
+
 ## 2026-07-18
 
 ### 新規YouTube動画発見 (4 件)
